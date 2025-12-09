@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-geist-sans" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
-    title: "Syntinuum: Endless Evolution",
+    title: "Adapt Reloaded",
     description: "Helping the World Adapt to its Growing Challenges in the World through Innovation.",
 };
 

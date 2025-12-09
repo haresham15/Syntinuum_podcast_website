@@ -150,7 +150,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LockScre
 ;
 ;
 const metadata = {
-    title: "Syntinuum: Endless Evolution",
+    title: "Adapt Reloaded",
     description: "Helping the World Adapt to its Growing Challenges in the World through Innovation."
 };
 function RootLayout({ children }) {
