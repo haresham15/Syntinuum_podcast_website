@@ -150,8 +150,57 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LockScre
 ;
 ;
 const metadata = {
-    title: "Adapt Reloaded",
-    description: "Helping the World Adapt to its Growing Challenges in the World through Innovation."
+    metadataBase: new URL('https://syntinuum.vercel.app'),
+    title: {
+        default: "Syntinuum - Adapting to Innovation",
+        template: "%s | Syntinuum"
+    },
+    description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
+    keywords: [
+        "Syntinuum",
+        "Podcast",
+        "Technology",
+        "Innovation",
+        "Adaptation",
+        "Future",
+        "AI",
+        "Society"
+    ],
+    authors: [
+        {
+            name: "Syntinuum Team"
+        }
+    ],
+    creator: "Syntinuum Team",
+    openGraph: {
+        type: "website",
+        locale: "en_US",
+        url: "https://syntinuum.vercel.app",
+        title: "Syntinuum - Adapting to Innovation",
+        description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
+        siteName: "Syntinuum",
+        images: [
+            {
+                url: "/icon.png",
+                width: 1200,
+                height: 630,
+                alt: "Syntinuum Podcast"
+            }
+        ]
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Syntinuum - Adapting to Innovation",
+        description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
+        images: [
+            "/icon.png"
+        ]
+    },
+    icons: {
+        icon: "/icon.png",
+        shortcut: "/icon.png",
+        apple: "/icon.png"
+    }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -163,24 +212,24 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LockScreen$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 31,
+                    lineNumber: 65,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 32,
+                    lineNumber: 66,
                     columnNumber: 17
                 }, this),
                 children
             ]
         }, void 0, true, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 23,
+            lineNumber: 57,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 22,
+        lineNumber: 56,
         columnNumber: 9
     }, this);
 }

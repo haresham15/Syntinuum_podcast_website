@@ -1,8 +1,31 @@
-[00:00:01.616] Server  LOG      ✓ Ready in 994ms
-[00:01:34.904] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:38.463] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:07.141] Server  LOG      ✓ Compiled in 57ms
-[00:03:09.671] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:12.741] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:03.848] Server  LOG      ✓ Compiled in 32ms
-[00:05:08.318] Server  LOG      ✓ Compiled in 25ms
+[00:00:01.413] Server  LOG      ✓ Ready in 907ms
+[00:00:06.352] Server  LOG      ○ Compiling / ...
+[00:00:14.136] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.780] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:18.780] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:29.144] Server  LOG      ✓ Compiled in 152ms
+[00:00:29.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.630] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.631] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:33.059] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:35.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:38.388] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:39.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:42.071] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.730] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:44.730] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:32.075] Browser ERROR   ./app/layout.tsx:65:33
+Parsing ecmascript source code failed
+  63 |                 )}
+  64 |             >
+> 65 |                 <LockScreen />*/}
+     |                                 ^
+  66 |                 <Navbar />
+  67 |                 {children}
+  68 |             </body>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:01:34.056] Server  LOG      ✓ Compiled in 117ms
+[00:01:35.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:03.089] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:03.089] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

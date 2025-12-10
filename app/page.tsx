@@ -9,6 +9,8 @@ import HistorySwitch from '@/components/sections/HistorySwitch';
 import Episodes from '@/components/sections/Episodes';
 import Achievements from '@/components/sections/Achievements';
 import Subscribe from '@/components/sections/Subscribe';
+import Season1Carousel from '@/components/sections/Season1Carousel';
+import Season2Carousel from '@/components/sections/Season2Carousel';
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
@@ -30,8 +32,10 @@ export default function Home() {
                     <Hero />
                     <About />
                     <HistorySwitch />
-                    <Episodes />
                     <Achievements />
+                    <Episodes />
+                    <Season1Carousel />
+                    <Season2Carousel />
                     <Subscribe />
                 </motion.div>
             )}

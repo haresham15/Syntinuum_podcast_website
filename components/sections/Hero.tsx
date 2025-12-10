@@ -1,7 +1,9 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import mainLogo from '../media/mainlogo.png';
 
 export default function Hero() {
     return (
@@ -11,6 +13,22 @@ export default function Hero() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-neon-primary/20 rounded-full blur-[100px] animate-pulse" />
 
             <div className="z-10 text-center px-4">
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.8, delay: 1 }}
+                    className="mb-8 relative w-56 h-56 md:w-72 md:h-72 mx-auto"
+                >
+                    <div className="absolute inset-0 bg-neon-primary/20 rounded-full blur-[200px] animate-pulse" />
+                    <Image
+                        src={mainLogo}
+                        alt="Syntinuum Logo"
+                        fill
+                        className="object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+                        priority
+                    />
+                </motion.div>
+
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}

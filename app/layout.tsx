@@ -9,8 +9,42 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-geist-sans" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
-    title: "Adapt Reloaded",
-    description: "Helping the World Adapt to its Growing Challenges in the World through Innovation.",
+    metadataBase: new URL('https://syntinuum.vercel.app'),
+    title: {
+        default: "Syntinuum - Adapting to Innovation",
+        template: "%s | Syntinuum"
+    },
+    description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
+    keywords: ["Syntinuum", "Podcast", "Technology", "Innovation", "Adaptation", "Future", "AI", "Society"],
+    authors: [{ name: "Syntinuum Team" }],
+    creator: "Syntinuum Team",
+    openGraph: {
+        type: "website",
+        locale: "en_US",
+        url: "https://syntinuum.vercel.app",
+        title: "Syntinuum - Adapting to Innovation",
+        description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
+        siteName: "Syntinuum",
+        images: [
+            {
+                url: "/icon.png",
+                width: 1200,
+                height: 630,
+                alt: "Syntinuum Podcast",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Syntinuum - Adapting to Innovation",
+        description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
+        images: ["/icon.png"],
+    },
+    icons: {
+        icon: "/icon.png",
+        shortcut: "/icon.png",
+        apple: "/icon.png",
+    },
 };
 
 export default function RootLayout({
