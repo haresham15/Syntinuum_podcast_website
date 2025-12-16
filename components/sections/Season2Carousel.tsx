@@ -84,7 +84,7 @@ export default function Season2Carousel() {
     const carouselRef = useRef<HTMLDivElement>(null);
 
     return (
-        <section className="py-20 bg-transparent relative">
+        <section id="season2" className="py-20 bg-transparent relative scroll-mt-24">
             {/* Background Ambience */}
             <div className="absolute right-0 top-1/2 -translate-y-1/2 w-96 h-96 bg-neon-purple/10 rounded-full blur-[100px] pointer-events-none" />
 
@@ -104,7 +104,7 @@ export default function Season2Carousel() {
                     transition={{ delay: 0.1 }}
                     className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-white to-white"
                 >
-                    SEASON 02 :: PRODUCTION GROWTH
+                    SEASON 02: The Next Iteration
                 </motion.h2>
             </div>
 

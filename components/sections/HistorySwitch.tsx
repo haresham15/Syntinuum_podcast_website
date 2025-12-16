@@ -7,7 +7,7 @@ import { ArrowRight, RefreshCcw } from 'lucide-react';
 
 export default function HistorySwitch() {
     return (
-        <section className="py-24 px-4 relative max-w-7xl mx-auto overflow-hidden">
+        <section id="history" className="py-24 px-4 relative max-w-7xl mx-auto overflow-hidden scroll-mt-24">
             {/* Background elements */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-neon-blue/5 rounded-full blur-[100px] -z-10" />
 

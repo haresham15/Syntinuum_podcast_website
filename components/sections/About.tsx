@@ -25,7 +25,6 @@ export default function About() {
                         className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-105"
                         placeholder="blur"
                     />
-
                     {/* Decorative code lines */}
                     <div className="absolute bottom-4 left-4 text-[10px] font-mono text-neon-primary/80 z-20 bg-black/50 backdrop-blur-sm p-2 rounded border border-zinc-800/50">
                         <div>&gt; ENTITY: HOST</div>

@@ -518,27 +518,27 @@ function About() {
                                     children: "> ENTITY: HOST"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/About.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 30,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: "> STATUS: OPERATIONAL"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/About.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 31,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: "> LOC: OHIO_STATE_UNIV"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/About.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 32,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/About.tsx",
-                            lineNumber: 30,
+                            lineNumber: 29,
                             columnNumber: 21
                         }, this)
                     ]
@@ -571,20 +571,20 @@ function About() {
                                             size: 16
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 45,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "SOURCE_CODE.md"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 47,
+                                            lineNumber: 46,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/About.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 44,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -592,7 +592,7 @@ function About() {
                                     children: "The Architect"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sections/About.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 48,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -605,21 +605,21 @@ function About() {
                                                     children: "Haresh Murugesan"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/About.tsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 51,
                                                     columnNumber: 33
                                                 }, this),
                                                 " // Computer Science Engineering Student @ OSU."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 51,
+                                            lineNumber: 50,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "The world is a rapidly compiling codebase. New frameworks for living are introduced daily. Most impact people's lives in minute ways. Others are generational creations helping milions navigate the world."
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 53,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -629,26 +629,26 @@ function About() {
                                                     children: "Syntinuum"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/About.tsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 59,
                                                     columnNumber: 33
                                                 }, this),
                                                 " (formerly Adapt) is the documentation for this new reality. We analyze the different innovations and inventions that are in the birth form. These creations are begging to be puth through countless unit tests. Creators continously checking to see how their creation will change the world and help it adapt to the growing challenges and systemic errors. Seeing how implementing the newest innovations can spark change. Our goal here at Syntinuum is to document the progress of these creations and motivate the next generation to continue the creative and breakthrough process for meaningfull change."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 58,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/About.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 49,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/About.tsx",
-                            lineNumber: 39,
+                            lineNumber: 38,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -661,7 +661,7 @@ function About() {
                                             className: "text-neon-blue mb-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 70,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -669,7 +669,7 @@ function About() {
                                             children: "Tech Implementations"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 72,
+                                            lineNumber: 71,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -677,13 +677,13 @@ function About() {
                                             children: "Analysis of emerging tech stacks in material reality."
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 72,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/About.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 69,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -693,7 +693,7 @@ function About() {
                                             className: "text-neon-purple mb-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 75,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -701,7 +701,7 @@ function About() {
                                             children: "System Updates"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 76,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -709,25 +709,25 @@ function About() {
                                             children: "Tracking the evolution of global adaptation strategies."
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/About.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 77,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/About.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 74,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sections/About.tsx",
-                            lineNumber: 69,
+                            lineNumber: 68,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/About.tsx",
-                    lineNumber: 38,
+                    lineNumber: 37,
                     columnNumber: 17
                 }, this)
             ]
@@ -784,7 +784,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 function HistorySwitch() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-24 px-4 relative max-w-7xl mx-auto overflow-hidden",
+        id: "history",
+        className: "py-24 px-4 relative max-w-7xl mx-auto overflow-hidden scroll-mt-24",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute top-0 right-0 w-96 h-96 bg-neon-blue/5 rounded-full blur-[100px] -z-10"
@@ -1099,7 +1100,7 @@ const episodes = [
     {
         id: "v1.9.0",
         title: "Season 1 Retrospective Base Ground",
-        date: "2023-12-01",
+        date: "2023-12-15",
         desc: "Analyzing the base standards established in the initial run. Lessons from the leaders in implementation",
         link: "https://open.spotify.com/show/5LPGObcWQdkoERNzZsdL98"
     }
@@ -1312,7 +1313,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 function Achievements() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-24 px-4 bg-zinc-900/30 border-y border-zinc-800",
+        id: "achievements",
+        className: "py-24 px-4 bg-zinc-900/30 border-y border-zinc-800 scroll-mt-24",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto",
             children: [
@@ -1717,66 +1719,66 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const episodes = [
     {
         id: 's1-e1',
-        title: 'Tevel Aerobotics',
-        guest: 'Tevel Team',
-        product: 'Flying Robots',
-        desc: 'Autonomous flying robots for fruit picking. Solving labor shortages in agriculture with advanced robotics.',
-        image: '/media/s1/9.png',
-        link: 'https://www.youtube.com/@Adapt-ImplementingInnovations'
-    },
-    {
-        id: 's1-e2',
-        title: 'AI Architecture',
+        title: 'AI Assisted Architecture',
         guest: 'Architecture Team',
         product: 'AI Design',
         desc: 'How AI is shaping the skyline. The role of generative design in modern construction and urban planning.',
-        image: '/media/s1/10.png',
-        link: 'https://youtube.com/watch?v=YKkqn0x3mEQ'
+        image: '/media/s1/9.png',
+        link: 'https://youtu.be/YKkqn0x3mEQ'
     },
     {
-        id: 's1-e3',
+        id: 's1-e2',
         title: 'XVision Headset',
         guest: 'Augmedics Team',
         product: 'XVision',
         desc: 'Augmented reality for surgeons. Giving doctors x-ray vision to see through anatomy during complex procedures.',
-        image: '/media/s1/11.png',
-        link: 'https://youtube.com/watch?v=z6naGP1PY74'
+        image: '/media/s1/10.png',
+        link: 'https://youtu.be/z6naGP1PY74'
     },
     {
-        id: 's1-e4',
-        title: 'NAQI Neural Earbuds',
+        id: 's1-e3',
+        title: 'NAQi Neural Earbuds',
         guest: 'Dave Segal',
         product: 'NAQI Earbuds',
         desc: 'Control digital devices with your mind? Neural earbuds and the future of human-computer interfaces.',
-        image: '/media/s1/12.png',
-        link: 'https://youtube.com/watch?v=-fH-FkjSY-s'
+        image: '/media/s1/11.png',
+        link: 'https://youtu.be/-fH-FkjSY-s'
     },
     {
-        id: 's1-e5',
+        id: 's1-e4',
         title: 'Rainstick Shower',
         guest: 'Alisha McFetridge',
         product: 'Rainstick',
         desc: 'The sustainable shower of the future. Saving water and energy without compromising the shower experience.',
+        image: '/media/s1/12.png',
+        link: 'https://youtu.be/Q4RHkE_ojBE'
+    },
+    {
+        id: 's1-e5',
+        title: 'AI Art Theft Prevention',
+        guest: 'Dr. Shawn Shan',
+        product: 'Glaze AI Prevention',
+        desc: 'Protecting art from theft. How AI is revolutionizing the art world and keeping priceless works safe.',
         image: '/media/s1/13.png',
-        link: 'https://youtube.com/watch?v=Q4RHkE_ojBE'
+        link: 'https://youtu.be/FaUqpbqMcps'
     },
     {
         id: 's1-e6',
         title: 'GACW',
-        guest: 'GACW Team',
+        guest: 'Dr. Zoltan Kemeney',
         product: 'Air Sus. Wheels',
         desc: 'Reinventing the wheel. Air suspension technology for heavy machinery that improves efficiency and durability.',
         image: '/media/s1/14.png',
-        link: 'https://youtube.com/watch?v=oljsu5EuXZw'
+        link: 'https://youtu.be/oljsu5EuXZw'
     },
     {
         id: 's1-e7',
         title: 'FeaturePrint',
-        guest: 'Alitheon Team',
+        guest: 'Mr.Roei Ganzarski',
         product: 'FeaturePrint',
         desc: 'Authenticating products with a single photo. The physics of uniqueness and the end of counterfeiting.',
         image: '/media/s1/15.png',
-        link: 'https://youtube.com/watch?v=ZFkU_g8cGI0'
+        link: 'https://youtu.be/ZFkU_g8cGI0'
     },
     {
         id: 's1-e8',
@@ -1785,13 +1787,14 @@ const episodes = [
         product: 'Ehrman Crest',
         desc: 'Exploring the layout of the future. How Ehrman Crest is redefining education through architecture and design.',
         image: '/media/s1/16.png',
-        link: 'https://youtube.com/watch?v=CRt8Whi_K4c'
+        link: 'https://youtu.be/CRt8Whi_K4c'
     }
 ];
 function Season1Carousel() {
     const carouselRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-transparent relative",
+        id: "season1",
+        className: "py-20 bg-transparent relative scroll-mt-24",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-7xl mx-auto px-4 mb-8 flex items-end justify-between",
@@ -1832,7 +1835,7 @@ function Season1Carousel() {
                                 delay: 0.1
                             },
                             className: "text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-500",
-                            children: "SEASON 01"
+                            children: "SEASON 01: Retrospective Base Ground"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/Season1Carousel.tsx",
                             lineNumber: 98,
@@ -2145,7 +2148,8 @@ const episodes = [
 function Season2Carousel() {
     const carouselRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 bg-transparent relative",
+        id: "season2",
+        className: "py-20 bg-transparent relative scroll-mt-24",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute right-0 top-1/2 -translate-y-1/2 w-96 h-96 bg-neon-purple/10 rounded-full blur-[100px] pointer-events-none"
@@ -2192,7 +2196,7 @@ function Season2Carousel() {
                             delay: 0.1
                         },
                         className: "text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-white to-white",
-                        children: "SEASON 02 :: PRODUCTION GROWTH"
+                        children: "SEASON 02: The Next Iteration"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/Season2Carousel.tsx",
                         lineNumber: 100,

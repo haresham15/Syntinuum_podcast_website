@@ -14,7 +14,7 @@ const episodes = [
     {
         id: "v1.9.0",
         title: "Season 1 Retrospective Base Ground",
-        date: "2023-12-01",
+        date: "2023-12-15",
         desc: "Analyzing the base standards established in the initial run. Lessons from the leaders in implementation",
         link: "https://open.spotify.com/show/5LPGObcWQdkoERNzZsdL98"
     },

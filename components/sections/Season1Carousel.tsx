@@ -8,66 +8,66 @@ import { useRef } from 'react';
 const episodes = [
     {
         id: 's1-e1',
-        title: 'Tevel Aerobotics',
-        guest: 'Tevel Team',
-        product: 'Flying Robots',
-        desc: 'Autonomous flying robots for fruit picking. Solving labor shortages in agriculture with advanced robotics.',
-        image: '/media/s1/9.png',
-        link: 'https://www.youtube.com/@Adapt-ImplementingInnovations'
-    },
-    {
-        id: 's1-e2',
-        title: 'AI Architecture',
+        title: 'AI Assisted Architecture',
         guest: 'Architecture Team',
         product: 'AI Design',
         desc: 'How AI is shaping the skyline. The role of generative design in modern construction and urban planning.',
-        image: '/media/s1/10.png',
-        link: 'https://youtube.com/watch?v=YKkqn0x3mEQ'
+        image: '/media/s1/9.png',
+        link: 'https://youtu.be/YKkqn0x3mEQ'
     },
     {
-        id: 's1-e3',
+        id: 's1-e2',
         title: 'XVision Headset',
         guest: 'Augmedics Team',
         product: 'XVision',
         desc: 'Augmented reality for surgeons. Giving doctors x-ray vision to see through anatomy during complex procedures.',
-        image: '/media/s1/11.png',
-        link: 'https://youtube.com/watch?v=z6naGP1PY74'
+        image: '/media/s1/10.png',
+        link: 'https://youtu.be/z6naGP1PY74'
     },
     {
-        id: 's1-e4',
-        title: 'NAQI Neural Earbuds',
+        id: 's1-e3',
+        title: 'NAQi Neural Earbuds',
         guest: 'Dave Segal',
         product: 'NAQI Earbuds',
         desc: 'Control digital devices with your mind? Neural earbuds and the future of human-computer interfaces.',
-        image: '/media/s1/12.png',
-        link: 'https://youtube.com/watch?v=-fH-FkjSY-s'
+        image: '/media/s1/11.png',
+        link: 'https://youtu.be/-fH-FkjSY-s'
     },
     {
-        id: 's1-e5',
+        id: 's1-e4',
         title: 'Rainstick Shower',
         guest: 'Alisha McFetridge',
         product: 'Rainstick',
         desc: 'The sustainable shower of the future. Saving water and energy without compromising the shower experience.',
+        image: '/media/s1/12.png',
+        link: 'https://youtu.be/Q4RHkE_ojBE'
+    },
+    {
+        id: 's1-e5',
+        title: 'AI Art Theft Prevention',
+        guest: 'Dr. Shawn Shan',
+        product: 'Glaze AI Prevention',
+        desc: 'Protecting art from theft. How AI is revolutionizing the art world and keeping priceless works safe.',
         image: '/media/s1/13.png',
-        link: 'https://youtube.com/watch?v=Q4RHkE_ojBE'
+        link: 'https://youtu.be/FaUqpbqMcps'
     },
     {
         id: 's1-e6',
         title: 'GACW',
-        guest: 'GACW Team',
+        guest: 'Dr. Zoltan Kemeney',
         product: 'Air Sus. Wheels',
         desc: 'Reinventing the wheel. Air suspension technology for heavy machinery that improves efficiency and durability.',
         image: '/media/s1/14.png',
-        link: 'https://youtube.com/watch?v=oljsu5EuXZw'
+        link: 'https://youtu.be/oljsu5EuXZw'
     },
     {
         id: 's1-e7',
         title: 'FeaturePrint',
-        guest: 'Alitheon Team',
+        guest: 'Mr.Roei Ganzarski',
         product: 'FeaturePrint',
         desc: 'Authenticating products with a single photo. The physics of uniqueness and the end of counterfeiting.',
         image: '/media/s1/15.png',
-        link: 'https://youtube.com/watch?v=ZFkU_g8cGI0'
+        link: 'https://youtu.be/ZFkU_g8cGI0'
     },
     {
         id: 's1-e8',
@@ -76,7 +76,7 @@ const episodes = [
         product: 'Ehrman Crest',
         desc: 'Exploring the layout of the future. How Ehrman Crest is redefining education through architecture and design.',
         image: '/media/s1/16.png',
-        link: 'https://youtube.com/watch?v=CRt8Whi_K4c'
+        link: 'https://youtu.be/CRt8Whi_K4c'
     }
 ];
 
@@ -84,7 +84,7 @@ export default function Season1Carousel() {
     const carouselRef = useRef<HTMLDivElement>(null);
 
     return (
-        <section className="py-20 bg-transparent relative">
+        <section id="season1" className="py-20 bg-transparent relative scroll-mt-24">
             <div className="max-w-7xl mx-auto px-4 mb-8 flex items-end justify-between">
                 <div>
                     <motion.div
@@ -102,7 +102,7 @@ export default function Season1Carousel() {
                         transition={{ delay: 0.1 }}
                         className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-500"
                     >
-                        SEASON 01
+                        SEASON 01: Retrospective Base Ground
                     </motion.h2>
                 </div>
                 {/* Scroll Indicators / Controls could go here */}

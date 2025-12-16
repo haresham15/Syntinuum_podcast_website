@@ -152,8 +152,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LockScre
 const metadata = {
     metadataBase: new URL('https://syntinuum.vercel.app'),
     title: {
-        default: "Syntinuum - Adapting to Innovation",
-        template: "%s | Syntinuum"
+        default: "Syntinuum Podcast",
+        template: "%s | Syntinuum Podcast"
     },
     description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
     keywords: [
@@ -176,9 +176,9 @@ const metadata = {
         type: "website",
         locale: "en_US",
         url: "https://syntinuum.vercel.app",
-        title: "Syntinuum - Adapting to Innovation",
+        title: "Syntinuum Podcast",
         description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
-        siteName: "Syntinuum",
+        siteName: "Syntinuum Podcast",
         images: [
             {
                 url: "/icon.png",
@@ -190,7 +190,7 @@ const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Syntinuum - Adapting to Innovation",
+        title: "Syntinuum Podcast - Adapting to Innovation",
         description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
         images: [
             "/icon.png"
@@ -206,30 +206,31 @@ function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         lang: "en",
         className: "dark scroll-smooth",
+        suppressHydrationWarning: true,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
             suppressHydrationWarning: true,
             className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["clsx"])(__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_68c8f38d$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable, __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$jetbrains_mono_2974b3db$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable, "antialiased bg-background text-foreground bg-grid min-h-screen selection:bg-neon-primary selection:text-black"),
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LockScreen$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 65,
+                    lineNumber: 66,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 66,
+                    lineNumber: 67,
                     columnNumber: 17
                 }, this),
                 children
             ]
         }, void 0, true, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 57,
+            lineNumber: 58,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 56,
+        lineNumber: 57,
         columnNumber: 9
     }, this);
 }

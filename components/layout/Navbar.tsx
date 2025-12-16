@@ -5,12 +5,16 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { clsx } from 'clsx';
-import { Home, Play, Info, Mail } from 'lucide-react';
+import { Home, Play, Info, Mail, History, Trophy, FileText, Disc } from 'lucide-react';
 
 const navItems = [
     { name: 'Home', path: '/', icon: Home },
-    { name: 'Episodes', path: '#episodes', icon: Play },
     { name: 'About', path: '#about', icon: Info },
+    { name: 'History', path: '#history', icon: History },
+    { name: 'Achievements', path: '#achievements', icon: Trophy },
+    { name: 'Changelog', path: '#episodes', icon: FileText },
+    { name: 'Season 1', path: '#season1', icon: Disc },
+    { name: 'Season 2', path: '#season2', icon: Disc },
     { name: 'Subscribe', path: '#subscribe', icon: Mail },
 ];
 
@@ -19,20 +23,18 @@ export default function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = navItems.map(item => item.path.replace('/', '')); // Get headers like #about
+            const sections = navItems.map(item => item.path.replace('/', ''));
 
-            // Default to Home if at top
             if (window.scrollY < 100) {
                 setActiveSection('/');
                 return;
             }
 
             for (const section of sections) {
-                if (section === '') continue; // Skip home root
-                const element = document.querySelector(section); // e.g., #about
+                if (section === '') continue; 
+                const element = document.querySelector(section); 
                 if (element) {
                     const rect = element.getBoundingClientRect();
-                    // If the section is near the middle/top of the viewport
                     if (rect.top >= 0 && rect.top <= 300) {
                         setActiveSection(section);
                         break;
@@ -47,12 +49,12 @@ export default function Navbar() {
 
     return (
         <motion.nav
-            className="fixed top-4 left-1/2 -translate-x-1/2 z-40 bg-zinc-900/50 backdrop-blur-md border border-zinc-800 rounded-full px-6 py-3 shadow-2xl shadow-black/50"
-            initial={{ y: -100, x: '-50%', opacity: 0 }}
-            animate={{ y: 0, x: '-50%', opacity: 1 }}
+            className="fixed top-4 inset-x-0 mx-auto z-40 bg-zinc-900/80 backdrop-blur-md border border-zinc-700/50 rounded-full px-5 py-2 shadow-2xl shadow-black/50 w-max max-w-[90vw] overflow-x-auto hide-scrollbar"
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 0.5 }}
         >
-            <ul className="flex items-center gap-6">
+            <ul className="flex items-center gap-1 md:gap-4">
                 {navItems.map((item) => {
                     const Icon = item.icon;
                     // Logic: item.path is like '#episodes'. activeSection is '#episodes'.
@@ -65,7 +67,7 @@ export default function Navbar() {
                                 href={item.path}
                                 onClick={() => setActiveSection(item.path)}
                                 className={clsx(
-                                    "relative flex items-center gap-2 text-sm font-medium transition-colors hover:text-neon-primary",
+                                    "relative flex items-center gap-1.5 px-3 py-1.5 text-xs md:text-sm font-medium transition-colors hover:text-neon-primary rounded-full hover:bg-white/5",
                                     isActive ? "text-white" : "text-zinc-400"
                                 )}
                             >
