@@ -12,8 +12,8 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-gei
 export const metadata: Metadata = {
     metadataBase: new URL('https://syntinuum.vercel.app'),
     title: {
-        default: "Adapt Reloaded",
-        template: "%s | Adapt Reloaded"
+        default: "Syntinuum Podcast",
+        template: "%s | Syntinuum Podcast"
     },
     description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
     keywords: ["Syntinuum", "Podcast", "Technology", "Innovation", "Adaptation", "Future", "AI", "Society"],
@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     openGraph: {
         type: "website",
         locale: "en_US",
-        url: "https://adaptreloaded.com",
-        title: "Adapt Reloaded",
+        url: "https://syntinuum.vercel.app",
+        title: "Syntinuum Podcast",
         description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
-        siteName: "Adapt Reloaded",
+        siteName: "Syntinuum Podcast",
         images: [
             {
                 url: "/icon.png",
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
             },
         ],
     },
-    twitter: {
+    twitter: {  
         card: "summary_large_image",
-        title: "Syntinuum - Adapting to Innovation",
+        title: "Syntinuum Podcast - Adapting to Innovation",
         description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
         images: ["/icon.png"],
     },
