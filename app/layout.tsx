@@ -35,7 +35,7 @@ export const metadata: Metadata = {
             },
         ],
     },
-    twitter: {  
+    twitter: {
         card: "summary_large_image",
         title: "Syntinuum Podcast - Adapting to Innovation",
         description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
