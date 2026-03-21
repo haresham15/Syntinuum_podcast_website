@@ -91,7 +91,7 @@ export default function Season1Carousel() {
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        className="inline-block px-3 py-1 mb-2 text-xs font-mono text-black bg-neon-primary rounded-full font-bold"
+                        className="inline-block px-3 py-1 mb-2 text-xs font-mono text-white bg-neon-primary rounded-full font-bold"
                     >
                         ARCHIVE_DETECTED
                     </motion.div>
@@ -156,9 +156,9 @@ export default function Season1Carousel() {
                                     {ep.desc}
                                 </p>
 
-                                <a href={ep.link} className="block w-full text-center py-2 rounded-lg border border-zinc-700 hover:bg-white hover:text-black hover:border-white transition-all text-xs font-mono font-bold tracking-widest uppercase">
+                                <button onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('open-listen-modal')); }} className="block w-full text-center py-2 rounded-lg border border-zinc-700 hover:bg-white hover:text-black hover:border-white transition-all text-xs font-mono font-bold tracking-widest uppercase mt-auto">
                                     Listen Now
-                                </a>
+                                </button>
                             </div>
                         </motion.div>
                     ))}

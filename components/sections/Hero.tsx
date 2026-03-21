@@ -76,7 +76,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 2.5 }}
                     className="mt-8 flex flex-col sm:flex-row gap-4 justify-center"
                 >
-                    <a href="#episodes" className="group relative px-6 py-3 font-mono font-bold text-black bg-[var(--neon-primary)] rounded-lg overflow-hidden transition-all hover:scale-105 hover:bg-white hover:shadow-[0_0_20px_var(--neon-purple)]">
+                    <button onClick={() => window.dispatchEvent(new CustomEvent('open-listen-modal'))} className="group relative px-6 py-3 font-mono font-bold text-black bg-[var(--neon-primary)] rounded-lg overflow-hidden transition-all hover:scale-105 hover:bg-white hover:shadow-[0_0_20px_var(--neon-purple)]">
                         <span className="relative z-10 flex items-center gap-2">
                             START LISTENING
                             <motion.span
@@ -86,7 +86,7 @@ export default function Hero() {
                                 <ArrowRight size={16} />
                             </motion.span>
                         </span>
-                    </a>
+                    </button>
                     <a href="#about" className="px-6 py-3 font-mono border border-zinc-700 rounded-lg hover:border-neon-purple hover:text-neon-purple transition-all bg-zinc-900/50 backdrop-blur-sm">
                         VIEW SOURCE
                     </a>

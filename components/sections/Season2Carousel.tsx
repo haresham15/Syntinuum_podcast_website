@@ -93,7 +93,7 @@ export default function Season2Carousel() {
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    className="inline-block px-3 py-1 mb-2 text-xs font-mono text-black bg-neon-purple rounded-full font-bold"
+                    className="inline-block px-3 py-1 mb-2 text-xs font-mono text-white bg-neon-purple rounded-full font-bold"
                 >
                     CURRENT_SESSIONS
                 </motion.div>
@@ -102,7 +102,7 @@ export default function Season2Carousel() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
-                    className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-neon-purple via-white to-white"
+                    className="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-500"
                 >
                     SEASON 02: The Next Iteration
                 </motion.h2>
@@ -156,9 +156,9 @@ export default function Season2Carousel() {
                                     {ep.desc}
                                 </p>
 
-                                <a href={ep.link} className="block w-full text-center py-2 rounded-lg border border-zinc-700 hover:bg-neon-purple hover:text-white hover:border-neon-purple transition-all text-xs font-mono font-bold tracking-widest uppercase">
+                                <button onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('open-listen-modal')); }} className="block w-full text-center py-2 rounded-lg border border-zinc-700 hover:bg-neon-purple hover:text-white hover:border-neon-purple transition-all text-xs font-mono font-bold tracking-widest uppercase mt-auto">
                                     Start Transmission
-                                </a>
+                                </button>
                             </div>
                         </motion.div>
                     ))}

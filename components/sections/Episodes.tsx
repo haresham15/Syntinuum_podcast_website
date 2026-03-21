@@ -5,6 +5,13 @@ import { Play, Calendar, ExternalLink } from 'lucide-react';
 
 const episodes = [
     {
+        id: "v3.0.0",
+        title: "Season 3: New Transmissions",
+        date: "2026-03-21",
+        desc: "Initializing the next phase of Syntinuum. New guests, new innovations, and exciting new technology.",
+        link: ""
+    },
+    {
         id: "v2.0.1",
         title: "Season 2: The Next Iteration",
         date: "2024-01-15",
@@ -56,14 +63,12 @@ export default function Episodes() {
                             <div className="flex-grow">
                                 <h3 className="text-xl font-bold mb-2 group-hover:text-neon-primary transition-colors">{ep.title}</h3>
                                 <p className="text-zinc-400 text-sm leading-relaxed mb-4">{ep.desc}</p>
-                                <a
-                                    href={ep.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                <button
+                                    onClick={() => window.dispatchEvent(new CustomEvent('open-listen-modal'))}
                                     className="inline-flex items-center gap-2 text-xs font-mono font-bold bg-white text-black px-4 py-2 rounded hover:scale-105 transition-transform"
                                 >
                                     <Play size={12} fill="black" /> DEPLOY TO AUDIO
-                                </a>
+                                </button>
                             </div>
                         </motion.div>
                     ))}

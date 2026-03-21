@@ -11,6 +11,8 @@ import Achievements from '@/components/sections/Achievements';
 import Subscribe from '@/components/sections/Subscribe';
 import Season1Carousel from '@/components/sections/Season1Carousel';
 import Season2Carousel from '@/components/sections/Season2Carousel';
+import Season3Carousel from '@/components/sections/Season3Carousel';
+import ListenNowModal from '@/components/ui/ListenNowModal';
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
@@ -34,11 +36,13 @@ export default function Home() {
                     <HistorySwitch />
                     <Achievements />
                     <Episodes />
-                    <Season1Carousel />
+                    <Season3Carousel />
                     <Season2Carousel />
+                    <Season1Carousel />
                     <Subscribe />
                 </motion.div>
             )}
+            <ListenNowModal />
         </main>
     );
 }

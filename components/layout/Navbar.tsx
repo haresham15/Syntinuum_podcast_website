@@ -13,8 +13,7 @@ const navItems = [
     { name: 'History', path: '#history', icon: History },
     { name: 'Achievements', path: '#achievements', icon: Trophy },
     { name: 'Changelog', path: '#episodes', icon: FileText },
-    { name: 'Season 1', path: '#season1', icon: Disc },
-    { name: 'Season 2', path: '#season2', icon: Disc },
+    { name: 'Seasons', path: '#season3', icon: Disc },
     { name: 'Subscribe', path: '#subscribe', icon: Mail },
 ];
 
