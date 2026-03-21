@@ -12,39 +12,65 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-gei
 export const metadata: Metadata = {
     metadataBase: new URL('https://syntinuum.vercel.app'),
     title: {
-        default: "Syntinuum Podcast",
+        default: "Syntinuum Podcast | Technology & Innovation Podcast | Endless Evolutions",
         template: "%s | Syntinuum Podcast"
     },
-    description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
-    keywords: ["Syntinuum", "Podcast", "Technology", "Innovation", "Adaptation", "Future", "AI", "Society"],
-    authors: [{ name: "Syntinuum Team" }],
-    creator: "Syntinuum Team",
+    description: "Syntinuum (formerly Adapt) is a technology and innovation podcast exploring emerging tech, product innovation, and the leaders building the future. Hosted by Haresh Murugesan. Listen on Spotify, Apple Podcasts, YouTube, and more.",
+    keywords: [
+        "Syntinuum", "Syntinuum Podcast", "Syntinuum Endless Evolutions",
+        "technology podcast", "innovation podcast", "tech podcast",
+        "emerging technology", "product innovation", "startup podcast",
+        "AI podcast", "sustainability podcast", "wearable technology",
+        "smart technology", "tech interviews", "future technology",
+        "Haresh Murugesan", "Adapt Podcast", "Ohio State podcast",
+        "podcast about innovation", "podcast about technology",
+        "best tech podcasts", "new technology podcast"
+    ],
+    authors: [{ name: "Haresh Murugesan", url: "https://syntinuum.vercel.app" }],
+    creator: "Haresh Murugesan",
+    publisher: "Syntinuum",
+    category: "Technology",
+    alternates: {
+        canonical: "https://syntinuum.vercel.app",
+    },
     openGraph: {
         type: "website",
         locale: "en_US",
         url: "https://syntinuum.vercel.app",
-        title: "Syntinuum Podcast",
-        description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
+        title: "Syntinuum Podcast | Technology & Innovation | Endless Evolutions",
+        description: "Syntinuum is a technology and innovation podcast exploring emerging tech, product innovation, and the leaders building the future. Listen on Spotify, Apple Podcasts, YouTube, and more.",
         siteName: "Syntinuum Podcast",
         images: [
             {
                 url: "/icon.png",
                 width: 1200,
                 height: 630,
-                alt: "Syntinuum Podcast",
+                alt: "Syntinuum Podcast – Technology and Innovation Podcast",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "Syntinuum Podcast - Adapting to Innovation",
-        description: "Join us on Syntinuum as we explore how humanity adapts to technological innovations and growing global challenges.",
+        title: "Syntinuum Podcast – Technology & Innovation | Endless Evolutions",
+        description: "Explore emerging tech, product innovation, and the leaders building the future. Listen on Spotify, Apple Podcasts, YouTube, and more.",
         images: ["/icon.png"],
+        creator: "@AdaptPodcastCo",
     },
     icons: {
         icon: "/icon.png",
         shortcut: "/icon.png",
         apple: "/icon.png",
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
     },
 };
 

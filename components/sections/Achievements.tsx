@@ -31,7 +31,7 @@ export default function Achievements() {
                         <div className="relative rounded-xl overflow-hidden border border-zinc-700 shadow-[0_0_50px_-12px_rgba(0,0,0,0.5)] group h-full">
                             <Image
                                 src={AchievementsImg}
-                                alt="Podcast Achievements"
+                                alt="Syntinuum Podcast Achievements – Top 50 Technology Charts"
                                 className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent flex items-end p-8">

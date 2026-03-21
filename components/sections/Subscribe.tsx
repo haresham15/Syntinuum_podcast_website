@@ -28,7 +28,7 @@ export default function Subscribe() {
                     Connect with the Syntinuum node. Stay updated on the latest protocol changes and innovations.
                 </p>
 
-                <div className="flex flex-wrap justify-center gap-6">
+                <div className="flex flex-wrap justify-center gap-6" role="navigation" aria-label="Syntinuum Podcast Social Media Links">
                     {socialLinks.map((social) => {
                         const Icon = social.icon;
                         return (

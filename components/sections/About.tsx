@@ -21,7 +21,7 @@ export default function About() {
 
                     <Image
                         src={MeImg}
-                        alt="Haresh Murugesan"
+                        alt="Haresh Murugesan – Host of Syntinuum Podcast"
                         className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-105"
                         placeholder="blur"
                     />

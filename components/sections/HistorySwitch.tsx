@@ -73,7 +73,7 @@ export default function HistorySwitch() {
                         <div className="relative w-full h-full rounded-2xl overflow-hidden border border-zinc-700 bg-zinc-900 shadow-2xl">
                             <Image
                                 src={HistoryIcon}
-                                alt="History of Adaptation"
+                                alt="Adapt to Syntinuum – Podcast Rebrand History"
                                 fill
                                 className="object-cover"
                             />

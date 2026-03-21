@@ -13,12 +13,14 @@ import Season1Carousel from '@/components/sections/Season1Carousel';
 import Season2Carousel from '@/components/sections/Season2Carousel';
 import Season3Carousel from '@/components/sections/Season3Carousel';
 import ListenNowModal from '@/components/ui/ListenNowModal';
+import JsonLd from '@/components/seo/JsonLd';
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
 
     return (
         <main className="min-h-screen">
+            <JsonLd />
             <AnimatePresence mode="wait">
                 {loading && (
                     <Loader onComplete={() => setLoading(false)} />

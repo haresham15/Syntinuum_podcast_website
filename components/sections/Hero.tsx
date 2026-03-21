@@ -46,6 +46,7 @@ export default function Hero() {
                 >
                     SYNTINUUM
                 </motion.h1>
+                <p className="sr-only">Syntinuum: Endless Evolutions – A technology and innovation podcast exploring emerging tech, product innovation, and the leaders building the future.</p>
 
                 <motion.div
                     initial={{ opacity: 0 }}
