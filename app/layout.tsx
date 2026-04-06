@@ -76,6 +76,9 @@ export const metadata: Metadata = {
             'max-snippet': -1,
         },
     },
+    verification: {
+        google: "YOUR_GOOGLE_SEARCH_CONSOLE_HTML_TAG_ID_HERE",
+    },
 };
 
 export default function RootLayout({

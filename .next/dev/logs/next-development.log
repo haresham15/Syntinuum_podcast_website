@@ -11,3 +11,6 @@
 [00:13:54.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:42:29.340] Server  LOG      ✓ Compiled in 41ms
 [00:42:31.430] Server  LOG      ✓ Compiled in 43ms
+[00:45:21.802] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:45:21.863] Server  LOG      ✓ Compiled in 25ms
+[00:46:21.234] Server  LOG      ✓ Compiled in 41ms
