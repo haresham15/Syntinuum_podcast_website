@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ReactMarkdown from 'react-markdown';
 import EpisodeJsonLd from "@/components/seo/EpisodeJsonLd";
+import ShareButtons from "@/components/features/ShareButtons";
 import { Play, ArrowLeft, User, Box, ChevronDown, Headphones, ListMusic, Radio, MonitorPlay } from "lucide-react";
 
 // Generate metadata dynamically for this specific episode
@@ -109,8 +110,8 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                             )}
                         </div>
 
-                        {/* Player Buttons */}
-                        <div className="flex flex-wrap gap-4 relative z-50">
+                        {/* Player Buttons & Social */}
+                        <div className="flex flex-col sm:flex-row gap-6 relative z-50 mt-4 md:mt-0">
                             <details className="group relative list-none [&::-webkit-details-marker]:hidden cursor-pointer">
                                 <summary className="flex items-center gap-2 bg-neon-purple hover:bg-purple-600 text-white font-bold px-6 py-3 rounded-full transition-colors outline-none select-none w-fit shadow-lg shadow-neon-purple/20">
                                     <Headphones size={20} />
@@ -140,6 +141,8 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                                     </a>
                                 </div>
                             </details>
+
+                            <ShareButtons title={episode.title} slug={episode.id} />
                         </div>
                     </div>
                 </header>

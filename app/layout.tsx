@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { clsx } from "clsx";
@@ -126,6 +127,8 @@ export default function RootLayout({
                 <LockScreen />
                 <Navbar />
                 {children}
+                <Analytics />
+                <GoogleAnalytics gaId="G-YOUR_GA_MEASUREMENT_ID" />
             </body>
         </html>
     );
