@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Play, User, Box } from 'lucide-react';
 import { useRef } from 'react';
+import Link from 'next/link';
 
 const episodes = [
     {
@@ -108,9 +109,15 @@ export default function Season3Carousel() {
                                     {ep.desc}
                                 </p>
 
-                                <button onClick={(e) => { e.preventDefault(); if (ep.title !== 'Coming Soon') window.dispatchEvent(new CustomEvent('open-listen-modal')); }} className={`block w-full text-center py-2 rounded-lg border transition-all text-xs font-mono font-bold tracking-widest uppercase mt-auto ${ep.link === '#' ? 'border-zinc-800 text-zinc-600 cursor-not-allowed' : 'border-zinc-700 hover:bg-neon-purple hover:text-white hover:border-neon-purple'}`}>
-                                    {ep.title === 'Coming Soon' ? 'Soon' : 'Start Transmission'}
-                                </button>
+                                {ep.title === 'Coming Soon' ? (
+                                    <button disabled className="block w-full text-center py-2 rounded-lg border transition-all text-xs font-mono font-bold tracking-widest uppercase mt-auto border-zinc-800 text-zinc-600 cursor-not-allowed">
+                                        Soon
+                                    </button>
+                                ) : (
+                                    <Link href={`/episodes/${ep.id}`} className="block w-full text-center py-2 rounded-lg border transition-all text-xs font-mono font-bold tracking-widest uppercase mt-auto border-zinc-700 hover:bg-neon-purple hover:text-white hover:border-neon-purple">
+                                        View Episode
+                                    </Link>
+                                )}
                             </div>
                         </motion.div>
                     ))}

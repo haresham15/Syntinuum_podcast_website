@@ -2,8 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { Play, User, Box } from 'lucide-react';
-// import Image from 'next/image';
 import { useRef } from 'react';
+import Link from 'next/link';
 
 const episodes = [
     {
@@ -156,9 +156,9 @@ export default function Season2Carousel() {
                                     {ep.desc}
                                 </p>
 
-                                <button onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('open-listen-modal')); }} className="block w-full text-center py-2 rounded-lg border border-zinc-700 hover:bg-neon-purple hover:text-white hover:border-neon-purple transition-all text-xs font-mono font-bold tracking-widest uppercase mt-auto">
-                                    Start Transmission
-                                </button>
+                                <Link href={`/episodes/${ep.id}`} className="block w-full text-center py-2 rounded-lg border border-zinc-700 hover:bg-neon-purple hover:text-white hover:border-neon-purple transition-all text-xs font-mono font-bold tracking-widest uppercase mt-auto">
+                                    View Episode
+                                </Link>
                             </div>
                         </motion.div>
                     ))}

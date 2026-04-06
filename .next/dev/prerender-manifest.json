@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "e2268eca27da52a84211481777ad3c63",
-    "previewModeSigningKey": "27ea68cb8e4e3a49951d760558e0180b8c1061bac64c6f7eacc090d2f9972c1e",
-    "previewModeEncryptionKey": "74b0b7326335470d4b65050c8861bb709935e4c66d6f4a7338e8f3edc3c80f1a"
-  }
-}
+{"version":4,"routes":{"/episodes/s3-e1":{},"/episodes/s2-e8":{},"/episodes/s2-e7":{},"/episodes/s2-e6":{},"/episodes/s2-e5":{},"/episodes/s2-e4":{},"/episodes/s2-e3":{},"/episodes/s2-e2":{},"/episodes/s2-e1":{},"/episodes/s1-e8":{},"/episodes/s1-e7":{},"/episodes/s1-e6":{},"/episodes/s1-e5":{},"/episodes/s1-e4":{},"/episodes/s1-e3":{},"/episodes/s1-e2":{},"/episodes/s1-e1":{}},"dynamicRoutes":{"/episodes/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/episodes/[slug]","routeRegex":"^\\/episodes\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"cfd0b0f7bc95c958b2dae6c0fd7e8432","previewModeSigningKey":"9daf02a691c076cc1eab38c49e70312ee0bd162d8d1d5c9695f7f3083dd5f941","previewModeEncryptionKey":"41f6125e2fcb86f4e8d565a15bab727925ba40eed6501edfe2c6b67581318063"}}

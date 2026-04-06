@@ -1,7 +1,17 @@
 import { MetadataRoute } from 'next';
+import { getAllEpisodes } from '@/lib/episodes';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-    return [
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+    const episodes = await getAllEpisodes();
+    
+    const episodeRoutes: MetadataRoute.Sitemap = episodes.map((ep) => ({
+        url: `https://syntinuum.vercel.app/episodes/${ep.id}`,
+        lastModified: new Date(ep.date || new Date()),
+        changeFrequency: 'monthly',
+        priority: 0.9,
+    }));
+
+    const staticRoutes: MetadataRoute.Sitemap = [
         {
             url: 'https://syntinuum.vercel.app',
             lastModified: new Date(),
@@ -33,4 +43,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.7,
         },
     ];
+
+    return [...staticRoutes, ...episodeRoutes];
 }
