@@ -10,33 +10,37 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-geist-sans" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://syntinuum.vercel.app'),
+    metadataBase: new URL('https://syntinuumpodcast.com'),
     title: {
         default: "Syntinuum Podcast | Technology & Innovation Podcast | Endless Evolutions",
         template: "%s | Syntinuum Podcast"
     },
     description: "Syntinuum (formerly Adapt) is a technology and innovation podcast exploring emerging tech, product innovation, and the leaders building the future. Hosted by Haresh Murugesan. Listen on Spotify, Apple Podcasts, YouTube, and more.",
     keywords: [
-        "Syntinuum", "Syntinuum Podcast", "Syntinuum Endless Evolutions",
+        "Syntinuum", "Syntinuum Podcast", "Syntinuum Endless Evolutions", 
+        "Syntinuum host", "Syntinuum episodes", "Syntinuum meaning",
+        "Syntinuum podcast episodes", "Syntinuum technology", "Syntinuum AI",
+        "what is Syntinuum", "Syntinuum interview", "Syntinuum youtube",
+        "Syntinuum spotify", "Syntinuum top fuel", "Syntinuum racing",
         "technology podcast", "innovation podcast", "tech podcast",
         "emerging technology", "product innovation", "startup podcast",
         "AI podcast", "sustainability podcast", "wearable technology",
         "smart technology", "tech interviews", "future technology",
-        "Haresh Murugesan", "Adapt Podcast", "Ohio State podcast",
+        "Haresh Murugesan Syntinuum", "Adapt Podcast", "Ohio State podcast",
         "podcast about innovation", "podcast about technology",
-        "best tech podcasts", "new technology podcast"
+        "best tech podcasts", "new technology podcast", "Haresh Murugesan"
     ],
-    authors: [{ name: "Haresh Murugesan", url: "https://syntinuum.vercel.app" }],
+    authors: [{ name: "Haresh Murugesan", url: "https://syntinuumpodcast.com" }],
     creator: "Haresh Murugesan",
     publisher: "Syntinuum",
     category: "Technology",
     alternates: {
-        canonical: "https://syntinuum.vercel.app",
+        canonical: "https://syntinuumpodcast.com",
     },
     openGraph: {
         type: "website",
         locale: "en_US",
-        url: "https://syntinuum.vercel.app",
+        url: "https://syntinuumpodcast.com",
         title: "Syntinuum Podcast | Technology & Innovation | Endless Evolutions",
         description: "Syntinuum is a technology and innovation podcast exploring emerging tech, product innovation, and the leaders building the future. Listen on Spotify, Apple Podcasts, YouTube, and more.",
         siteName: "Syntinuum Podcast",

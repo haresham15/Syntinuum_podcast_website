@@ -150,7 +150,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LockScre
 ;
 ;
 const metadata = {
-    metadataBase: new URL('https://syntinuum.vercel.app'),
+    metadataBase: new URL('https://syntinuumpodcast.com'),
     title: {
         default: "Syntinuum Podcast | Technology & Innovation Podcast | Endless Evolutions",
         template: "%s | Syntinuum Podcast"
@@ -160,6 +160,18 @@ const metadata = {
         "Syntinuum",
         "Syntinuum Podcast",
         "Syntinuum Endless Evolutions",
+        "Syntinuum host",
+        "Syntinuum episodes",
+        "Syntinuum meaning",
+        "Syntinuum podcast episodes",
+        "Syntinuum technology",
+        "Syntinuum AI",
+        "what is Syntinuum",
+        "Syntinuum interview",
+        "Syntinuum youtube",
+        "Syntinuum spotify",
+        "Syntinuum top fuel",
+        "Syntinuum racing",
         "technology podcast",
         "innovation podcast",
         "tech podcast",
@@ -172,30 +184,31 @@ const metadata = {
         "smart technology",
         "tech interviews",
         "future technology",
-        "Haresh Murugesan",
+        "Haresh Murugesan Syntinuum",
         "Adapt Podcast",
         "Ohio State podcast",
         "podcast about innovation",
         "podcast about technology",
         "best tech podcasts",
-        "new technology podcast"
+        "new technology podcast",
+        "Haresh Murugesan"
     ],
     authors: [
         {
             name: "Haresh Murugesan",
-            url: "https://syntinuum.vercel.app"
+            url: "https://syntinuumpodcast.com"
         }
     ],
     creator: "Haresh Murugesan",
     publisher: "Syntinuum",
     category: "Technology",
     alternates: {
-        canonical: "https://syntinuum.vercel.app"
+        canonical: "https://syntinuumpodcast.com"
     },
     openGraph: {
         type: "website",
         locale: "en_US",
-        url: "https://syntinuum.vercel.app",
+        url: "https://syntinuumpodcast.com",
         title: "Syntinuum Podcast | Technology & Innovation | Endless Evolutions",
         description: "Syntinuum is a technology and innovation podcast exploring emerging tech, product innovation, and the leaders building the future. Listen on Spotify, Apple Podcasts, YouTube, and more.",
         siteName: "Syntinuum Podcast",
@@ -245,24 +258,24 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$LockScreen$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 92,
+                    lineNumber: 96,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$layout$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 93,
+                    lineNumber: 97,
                     columnNumber: 17
                 }, this),
                 children
             ]
         }, void 0, true, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 84,
+            lineNumber: 88,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 83,
+        lineNumber: 87,
         columnNumber: 9
     }, this);
 }

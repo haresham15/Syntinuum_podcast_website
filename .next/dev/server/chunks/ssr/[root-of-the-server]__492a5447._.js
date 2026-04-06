@@ -169,11 +169,11 @@ function EpisodeJsonLd({ episode }) {
         description: episode.content.substring(0, 150) + "...",
         datePublished: episode.date,
         timeRequired: 'PT45M',
-        image: episode.image ? `https://syntinuum.vercel.app${episode.image}` : 'https://syntinuum.vercel.app/icon.png',
+        image: episode.image ? `https://syntinuumpodcast.com${episode.image}` : 'https://syntinuumpodcast.com/icon.png',
         partOfSeries: {
             '@type': 'PodcastSeries',
             name: 'Syntinuum: Endless Evolutions',
-            url: 'https://syntinuum.vercel.app'
+            url: 'https://syntinuumpodcast.com'
         },
         creator: {
             '@type': 'Person',

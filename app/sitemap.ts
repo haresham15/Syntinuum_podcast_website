@@ -5,7 +5,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const episodes = await getAllEpisodes();
     
     const episodeRoutes: MetadataRoute.Sitemap = episodes.map((ep) => ({
-        url: `https://syntinuum.vercel.app/episodes/${ep.id}`,
+        url: `https://syntinuumpodcast.com/episodes/${ep.id}`,
         lastModified: new Date(ep.date || new Date()),
         changeFrequency: 'monthly',
         priority: 0.9,
@@ -13,31 +13,31 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     const staticRoutes: MetadataRoute.Sitemap = [
         {
-            url: 'https://syntinuum.vercel.app',
+            url: 'https://syntinuumpodcast.com',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 1,
         },
         {
-            url: 'https://syntinuum.vercel.app/#about',
+            url: 'https://syntinuumpodcast.com/#about',
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.8,
         },
         {
-            url: 'https://syntinuum.vercel.app/#season3',
+            url: 'https://syntinuumpodcast.com/#season3',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.9,
         },
         {
-            url: 'https://syntinuum.vercel.app/#season2',
+            url: 'https://syntinuumpodcast.com/#season2',
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.8,
         },
         {
-            url: 'https://syntinuum.vercel.app/#season1',
+            url: 'https://syntinuumpodcast.com/#season1',
             lastModified: new Date(),
             changeFrequency: 'yearly',
             priority: 0.7,

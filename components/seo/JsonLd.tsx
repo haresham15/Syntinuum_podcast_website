@@ -8,8 +8,8 @@ export default function JsonLd() {
         alternateName: ['Syntinuum Podcast', 'Adapt: Implementing Innovations'],
         description:
             'Syntinuum is a technology and innovation podcast exploring emerging tech, product innovation, and the leaders building the future. Hosted by Haresh Murugesan.',
-        url: 'https://syntinuum.vercel.app',
-        image: 'https://syntinuum.vercel.app/icon.png',
+        url: 'https://syntinuumpodcast.com',
+        image: 'https://syntinuumpodcast.com/icon.png',
         author: {
             '@type': 'Person',
             name: 'Haresh Murugesan',
@@ -18,7 +18,7 @@ export default function JsonLd() {
                 '@type': 'CollegeOrUniversity',
                 name: 'The Ohio State University',
             },
-            url: 'https://syntinuum.vercel.app',
+            url: 'https://syntinuumpodcast.com',
         },
         genre: ['Technology', 'Innovation', 'Science'],
         inLanguage: 'en',
@@ -56,7 +56,7 @@ export default function JsonLd() {
         '@type': 'WebSite',
         name: 'Syntinuum Podcast',
         alternateName: 'Syntinuum: Endless Evolutions',
-        url: 'https://syntinuum.vercel.app',
+        url: 'https://syntinuumpodcast.com',
         description:
             'Official website for Syntinuum, a technology and innovation podcast exploring emerging tech and the leaders building the future.',
         publisher: {
@@ -74,7 +74,7 @@ export default function JsonLd() {
             '@type': 'CollegeOrUniversity',
             name: 'The Ohio State University',
         },
-        url: 'https://syntinuum.vercel.app',
+        url: 'https://syntinuumpodcast.com',
         sameAs: [
             'https://www.instagram.com/adapt_podcast',
             'https://x.com/AdaptPodcastCo',

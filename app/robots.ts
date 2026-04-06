@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://syntinuum.vercel.app/sitemap.xml',
+        sitemap: 'https://syntinuumpodcast.com/sitemap.xml',
     };
 }
