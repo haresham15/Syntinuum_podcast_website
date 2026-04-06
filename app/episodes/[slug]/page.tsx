@@ -12,23 +12,43 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const episode = await getEpisodeById(p.slug);
     if (!episode) return {};
 
+    const episodeDescription = `Listen to "${episode.title}" featuring ${episode.guest} on the Syntinuum Podcast. ${episode.content.substring(0, 130).trim()}... Available on Spotify, Apple Podcasts, YouTube, Amazon Music. Visit syntinuumpodcast.com for all episodes.`;
+
     return {
-        title: `${episode.title} - Syntinuum Podcast`,
-        description: `Listen to ${episode.title} featuring ${episode.guest}. ${episode.content.substring(0, 150)}...`,
+        title: `${episode.title} with ${episode.guest} - Syntinuum Podcast`,
+        description: episodeDescription,
+        keywords: [
+            episode.title, episode.guest, episode.product,
+            `${episode.title} podcast`, `${episode.guest} interview`,
+            `${episode.product} technology`, `${episode.product} innovation`,
+            'Syntinuum', 'Syntinuum Podcast', 'technology podcast',
+            'innovation podcast', 'Haresh Murugesan',
+        ].filter(Boolean),
+        alternates: {
+            canonical: `https://syntinuumpodcast.com/episodes/${p.slug}`,
+        },
         openGraph: {
-            title: `${episode.title} | Syntinuum Podcast`,
-            description: `Listen to ${episode.title} featuring ${episode.guest}.`,
+            title: `${episode.title} with ${episode.guest} | Syntinuum Podcast`,
+            description: episodeDescription,
             images: [
                 {
                     url: episode.image || '/icon.png',
                     width: 1200,
                     height: 630,
-                    alt: `Episode Cover for ${episode.title}`,
+                    alt: `${episode.title} – Syntinuum Podcast Episode featuring ${episode.guest}`,
                 },
             ],
             type: "article",
             publishedTime: episode.date,
             authors: [episode.guest, "Haresh Murugesan"],
+            siteName: "Syntinuum Podcast",
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: `${episode.title} | Syntinuum Podcast`,
+            description: `${episode.guest} discusses ${episode.product || episode.title} on the Syntinuum Podcast.`,
+            images: [episode.image || '/icon.png'],
+            creator: "@AdaptPodcastCo",
         },
     };
 }

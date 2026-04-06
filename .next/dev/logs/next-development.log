@@ -14,3 +14,7 @@
 [00:45:21.802] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
 [00:45:21.863] Server  LOG      ✓ Compiled in 25ms
 [00:46:21.234] Server  LOG      ✓ Compiled in 41ms
+[00:53:55.661] Server  LOG      ✓ Compiled in 108ms
+[00:54:52.578] Server  LOG      ✓ Compiled in 107ms
+[00:55:08.729] Server  LOG      ✓ Compiled in 100ms
+[00:55:32.611] Server  LOG      ✓ Compiled in 236ms
