@@ -19,28 +19,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 1,
         },
         {
-            url: 'https://syntinuumpodcast.com/#about',
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: 'https://syntinuumpodcast.com/#season3',
+            url: 'https://syntinuumpodcast.com/episodes',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.9,
-        },
-        {
-            url: 'https://syntinuumpodcast.com/#season2',
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: 'https://syntinuumpodcast.com/#season1',
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 0.7,
         },
     ];
 
