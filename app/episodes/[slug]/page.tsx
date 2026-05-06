@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             'innovation podcast', 'Haresh Murugesan',
         ].filter(Boolean),
         alternates: {
-            canonical: `https://syntinuumpodcast.com/episodes/${p.slug}`,
+            canonical: `/episodes/${p.slug}`,
         },
         openGraph: {
             title: `${episode.title} with ${episode.guest} | Syntinuum Podcast`,

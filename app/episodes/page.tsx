@@ -12,7 +12,7 @@ export const metadata: Metadata = {
         "AI podcast episodes", "wearable tech podcast", "Haresh Murugesan episodes",
     ],
     alternates: {
-        canonical: "https://syntinuumpodcast.com/episodes",
+        canonical: "/episodes",
     },
     openGraph: {
         title: "All Episodes – Syntinuum Podcast",

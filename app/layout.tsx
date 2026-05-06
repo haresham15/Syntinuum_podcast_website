@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     publisher: "Syntinuum",
     category: "Technology",
     alternates: {
-        canonical: "https://syntinuumpodcast.com",
+        canonical: "/",
     },
     openGraph: {
         type: "website",
