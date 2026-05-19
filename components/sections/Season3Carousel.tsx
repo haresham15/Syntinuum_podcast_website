@@ -15,8 +15,17 @@ const episodes = [
         image: '/media/s3/1.png',
         link: 'https://youtu.be/lZH9AY-B07M'
     },
-    ...Array.from({ length: 8 }).map((_, i) => ({
-        id: `s3-e${i + 2}`,
+    {
+        id: 's3-e2',
+        title: 'Sustainable Food Tech & Mycoprotein Synthesis',
+        guest: 'Paul Shapiro',
+        product: 'The Better Meat Company',
+        desc: 'In this episode, we dive into sustainable food tech and mycoprotein synthesis with Paul Shapiro from The Better Meat Company. We explore how growing meat without animals could revolutionize dinner and the world.',
+        image: '/media/s3/2.png',
+        link: 'https://youtu.be/oaZFKyy7Kc4'
+    },
+    ...Array.from({ length: 7 }).map((_, i) => ({
+        id: `s3-e${i + 3}`,
         title: 'Coming Soon',
         guest: 'TBA',
         product: '',

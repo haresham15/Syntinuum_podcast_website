@@ -2456,10 +2456,19 @@ const episodes = [
         image: '/media/s3/1.png',
         link: 'https://youtu.be/lZH9AY-B07M'
     },
+    {
+        id: 's3-e2',
+        title: 'Sustainable Food Tech & Mycoprotein Synthesis',
+        guest: 'Paul Shapiro',
+        product: 'The Better Meat Company',
+        desc: 'In this episode, we dive into sustainable food tech and mycoprotein synthesis with Paul Shapiro from The Better Meat Company. We explore how growing meat without animals could revolutionize dinner and the world.',
+        image: '/media/s3/2.png',
+        link: 'https://youtu.be/oaZFKyy7Kc4'
+    },
     ...Array.from({
-        length: 8
+        length: 7
     }).map((_, i)=>({
-            id: `s3-e${i + 2}`,
+            id: `s3-e${i + 3}`,
             title: 'Coming Soon',
             guest: 'TBA',
             product: '',
@@ -2478,7 +2487,7 @@ function Season3Carousel() {
                 className: "absolute left-0 top-1/2 -translate-y-1/2 w-96 h-96 bg-neon-purple/10 rounded-full blur-[100px] pointer-events-none"
             }, void 0, false, {
                 fileName: "[project]/components/sections/Season3Carousel.tsx",
-                lineNumber: 35,
+                lineNumber: 44,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2500,7 +2509,7 @@ function Season3Carousel() {
                         children: "NEW_TRANSMISSIONS"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/Season3Carousel.tsx",
-                        lineNumber: 38,
+                        lineNumber: 47,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
@@ -2522,13 +2531,13 @@ function Season3Carousel() {
                         children: "SEASON 03: Growing and Learning"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/Season3Carousel.tsx",
-                        lineNumber: 46,
+                        lineNumber: 55,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/Season3Carousel.tsx",
-                lineNumber: 37,
+                lineNumber: 46,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2566,14 +2575,14 @@ function Season3Carousel() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 80,
                                             columnNumber: 37
                                         }, this) : null,
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 89,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2587,7 +2596,7 @@ function Season3Carousel() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 92,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2597,24 +2606,24 @@ function Season3Carousel() {
                                                         fill: "currentColor"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                        lineNumber: 87,
+                                                        lineNumber: 96,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 95,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 91,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 78,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2625,7 +2634,7 @@ function Season3Carousel() {
                                             children: ep.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 102,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2639,7 +2648,7 @@ function Season3Carousel() {
                                                             className: "text-neon-purple"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                            lineNumber: 97,
+                                                            lineNumber: 106,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2647,13 +2656,13 @@ function Season3Carousel() {
                                                             children: ep.guest
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                            lineNumber: 98,
+                                                            lineNumber: 107,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 105,
                                                     columnNumber: 37
                                                 }, this),
                                                 ep.product && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2664,7 +2673,7 @@ function Season3Carousel() {
                                                             className: "text-neon-blue"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                            lineNumber: 102,
+                                                            lineNumber: 111,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2672,19 +2681,19 @@ function Season3Carousel() {
                                                             children: ep.product
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                            lineNumber: 103,
+                                                            lineNumber: 112,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 110,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 104,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2692,7 +2701,7 @@ function Season3Carousel() {
                                             children: ep.desc
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 117,
                                             columnNumber: 33
                                         }, this),
                                         ep.title === 'Coming Soon' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2701,7 +2710,7 @@ function Season3Carousel() {
                                             children: "Soon"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                            lineNumber: 113,
+                                            lineNumber: 122,
                                             columnNumber: 37
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             href: `/episodes/${ep.id}`,
@@ -2709,35 +2718,35 @@ function Season3Carousel() {
                                             children: "View Episode"
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 126,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/Season3Carousel.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 101,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, ep.id, true, {
                             fileName: "[project]/components/sections/Season3Carousel.tsx",
-                            lineNumber: 60,
+                            lineNumber: 69,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/sections/Season3Carousel.tsx",
-                    lineNumber: 58,
+                    lineNumber: 67,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sections/Season3Carousel.tsx",
-                lineNumber: 57,
+                lineNumber: 66,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/Season3Carousel.tsx",
-        lineNumber: 33,
+        lineNumber: 42,
         columnNumber: 9
     }, this);
 }
@@ -2979,9 +2988,11 @@ function JsonLd() {
         name: 'Syntinuum: Endless Evolutions',
         alternateName: [
             'Syntinuum Podcast',
-            'Adapt: Implementing Innovations'
+            'Syntinuum',
+            'Adapt: Implementing Innovations',
+            'Adapt Podcast'
         ],
-        description: 'Syntinuum is a technology and innovation podcast exploring emerging tech, product innovation, and the leaders building the future. Hosted by Haresh Murugesan.',
+        description: 'Syntinuum is a technology and innovation podcast exploring emerging tech, AI, wearable technology, sustainable innovation, hydrogen fuel cells, smart devices, neural interfaces, and the visionary founders building the future. Hosted by Haresh Murugesan, a Computer Science student at The Ohio State University. Listen free on Spotify, Apple Podcasts, YouTube, Amazon Music, and Castbox.',
         url: 'https://syntinuumpodcast.com',
         image: 'https://syntinuumpodcast.com/icon.png',
         author: {
@@ -2997,9 +3008,13 @@ function JsonLd() {
         genre: [
             'Technology',
             'Innovation',
-            'Science'
+            'Science',
+            'Artificial Intelligence',
+            'Sustainability',
+            'Engineering'
         ],
         inLanguage: 'en',
+        keywords: 'technology podcast, innovation podcast, AI podcast, wearable technology, sustainability, emerging tech, smart devices, neural interfaces, hydrogen fuel, startup founders, Haresh Murugesan, Ohio State, Syntinuum',
         webFeed: [
             {
                 '@type': 'URL',
@@ -3032,19 +3047,32 @@ function JsonLd() {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: 'Syntinuum Podcast',
-        alternateName: 'Syntinuum: Endless Evolutions',
+        alternateName: [
+            'Syntinuum: Endless Evolutions',
+            'Syntinuum',
+            'syntinuumpodcast.com'
+        ],
         url: 'https://syntinuumpodcast.com',
-        description: 'Official website for Syntinuum, a technology and innovation podcast exploring emerging tech and the leaders building the future.',
+        description: 'Official website for Syntinuum, a technology and innovation podcast exploring emerging tech, AI, wearable technology, sustainability, and the leaders building the future. Browse episodes, listen on your favorite platform, and discover the latest innovations.',
         publisher: {
             '@type': 'Person',
             name: 'Haresh Murugesan'
+        },
+        potentialAction: {
+            '@type': 'SearchAction',
+            target: {
+                '@type': 'EntryPoint',
+                urlTemplate: 'https://syntinuumpodcast.com/?q={search_term_string}'
+            },
+            'query-input': 'required name=search_term_string'
         }
     };
     const personSchema = {
         '@context': 'https://schema.org',
         '@type': 'Person',
         name: 'Haresh Murugesan',
-        jobTitle: 'Podcast Host',
+        jobTitle: 'Podcast Host & Creator',
+        description: 'Haresh Murugesan is the host of Syntinuum (formerly Adapt), a technology and innovation podcast. He is a Computer Science Engineering student at The Ohio State University.',
         affiliation: {
             '@type': 'CollegeOrUniversity',
             name: 'The Ohio State University'
@@ -3053,7 +3081,80 @@ function JsonLd() {
         sameAs: [
             'https://www.instagram.com/adapt_podcast',
             'https://x.com/AdaptPodcastCo',
-            'https://www.youtube.com/channel/UCg2BeZarXY7YLdnFYwRS_HQ'
+            'https://www.youtube.com/channel/UCg2BeZarXY7YLdnFYwRS_HQ',
+            'https://open.spotify.com/show/5LPGObcWQdkoERNzZsdL98',
+            'https://podcasts.apple.com/us/podcast/syntinuum-endless-evolutions/id1729494958',
+            'https://music.amazon.com/podcasts/a9b7e115-185a-4324-ae2d-33488a4fd26c/syntinuum-endless-evolutions'
+        ]
+    };
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://syntinuumpodcast.com'
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Episodes',
+                item: 'https://syntinuumpodcast.com/#episodes'
+            },
+            {
+                '@type': 'ListItem',
+                position: 3,
+                name: 'Season 3',
+                item: 'https://syntinuumpodcast.com/#season3'
+            }
+        ]
+    };
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+            {
+                '@type': 'Question',
+                name: 'What is Syntinuum?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Syntinuum (formerly Adapt: Implementing Innovations) is a technology and innovation podcast hosted by Haresh Murugesan. The podcast explores emerging tech, AI, wearable technology, sustainable innovation, and interviews visionary founders building the future. It is available on Spotify, Apple Podcasts, YouTube, Amazon Music, and Castbox.'
+                }
+            },
+            {
+                '@type': 'Question',
+                name: 'Who hosts the Syntinuum Podcast?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'The Syntinuum Podcast is hosted by Haresh Murugesan, a Computer Science Engineering student at The Ohio State University. He founded the podcast to document the progress of emerging technology innovations and inspire the next generation of creators.'
+                }
+            },
+            {
+                '@type': 'Question',
+                name: 'Where can I listen to the Syntinuum Podcast?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'You can listen to the Syntinuum Podcast on Spotify, Apple Podcasts, YouTube, Amazon Music, and Castbox. Visit syntinuumpodcast.com for direct links to all platforms.'
+                }
+            },
+            {
+                '@type': 'Question',
+                name: 'What topics does Syntinuum cover?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Syntinuum covers a broad range of technology and innovation topics including artificial intelligence, wearable technology (smart rings, neural earbuds), sustainable packaging, hydrogen fuel cells, augmented reality in surgery, AI-powered smart pens, mental health technology, speech assistive technology, smart mirrors, and more.'
+                }
+            },
+            {
+                '@type': 'Question',
+                name: 'How many seasons does Syntinuum have?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Syntinuum currently has 3 seasons. Season 1 (Retrospective Base Ground) established the foundation, Season 2 (The Next Iteration) expanded to deeper innovation analysis, and Season 3 (Growing and Learning) continues with new guests and technologies.'
+                }
+            }
         ]
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -3065,7 +3166,7 @@ function JsonLd() {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/seo/JsonLd.tsx",
-                lineNumber: 87,
+                lineNumber: 172,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -3075,7 +3176,7 @@ function JsonLd() {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/seo/JsonLd.tsx",
-                lineNumber: 91,
+                lineNumber: 176,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -3085,7 +3186,27 @@ function JsonLd() {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/seo/JsonLd.tsx",
-                lineNumber: 95,
+                lineNumber: 180,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(breadcrumbSchema)
+                }
+            }, void 0, false, {
+                fileName: "[project]/components/seo/JsonLd.tsx",
+                lineNumber: 184,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(faqSchema)
+                }
+            }, void 0, false, {
+                fileName: "[project]/components/seo/JsonLd.tsx",
+                lineNumber: 188,
                 columnNumber: 13
             }, this)
         ]
