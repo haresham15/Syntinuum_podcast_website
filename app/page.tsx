@@ -27,23 +27,22 @@ export default function Home() {
                 )}
             </AnimatePresence>
 
-            {!loading && (
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <Hero />
-                    <About />
-                    <HistorySwitch />
-                    <Achievements />
-                    <Episodes />
-                    <Season3Carousel />
-                    <Season2Carousel />
-                    <Season1Carousel />
-                    <Subscribe />
-                </motion.div>
-            )}
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: loading ? 0 : 1 }}
+                transition={{ duration: 0.5 }}
+                className={loading ? "pointer-events-none" : ""}
+            >
+                <Hero />
+                <About />
+                <HistorySwitch />
+                <Achievements />
+                <Episodes />
+                <Season3Carousel />
+                <Season2Carousel />
+                <Season1Carousel />
+                <Subscribe />
+            </motion.div>
             <ListenNowModal />
         </main>
     );

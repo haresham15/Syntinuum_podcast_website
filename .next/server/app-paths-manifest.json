@@ -1,6 +1,9 @@
 {
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/api/og/route": "app-edge-has-no-entrypoint",
+  "/episodes/[slug]/page": "app/episodes/[slug]/page.js",
+  "/episodes/page": "app/episodes/page.js",
   "/icon.png/route": "app/icon.png/route.js",
   "/page": "app/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",

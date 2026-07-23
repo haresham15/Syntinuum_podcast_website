@@ -86,3 +86,41 @@ export async function getAllEpisodes(): Promise<EpisodeData[]> {
         }
     });
 }
+
+/**
+ * Retrieves related episodes based on keyword matching in title, guest, or product.
+ */
+export async function getRelatedEpisodes(currentId: string, limit: number = 3): Promise<EpisodeData[]> {
+    const allEpisodes = await getAllEpisodes();
+    const currentEpisode = allEpisodes.find(ep => ep.id === currentId);
+    
+    if (!currentEpisode) return [];
+
+    const otherEpisodes = allEpisodes.filter(ep => ep.id !== currentId);
+    
+    // Extract keywords from the current episode to compare
+    const getKeywords = (ep: EpisodeData) => {
+        const text = `${ep.title} ${ep.guest} ${ep.product || ''}`.toLowerCase();
+        return new Set(text.split(/\W+/).filter(word => word.length > 4));
+    };
+
+    const currentKeywords = getKeywords(currentEpisode);
+
+    // Score each episode based on keyword intersection
+    const scoredEpisodes = otherEpisodes.map(ep => {
+        const keywords = getKeywords(ep);
+        let score = 0;
+        for (const word of currentKeywords) {
+            if (keywords.has(word)) score += 1;
+        }
+        return { episode: ep, score };
+    });
+
+    // Sort by score (descending), then by date (newest first)
+    scoredEpisodes.sort((a, b) => {
+        if (a.score !== b.score) return b.score - a.score;
+        return a.episode.date < b.episode.date ? 1 : -1;
+    });
+
+    return scoredEpisodes.slice(0, limit).map(item => item.episode);
+}

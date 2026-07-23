@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/episodes/layout,_N_T_/episodes/[slug]/layout,_N_T_/episodes/[slug]/page,_N_T_/episodes/s1-e3"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/episodes/$d$slug/__PAGE__",
+    "/episodes/$d$slug",
+    "/episodes",
+    "/_index",
+    "/_head"
+  ]
+}

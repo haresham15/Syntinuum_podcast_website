@@ -1,6 +1,9 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/api/og/route": "/api/og",
+  "/episodes/[slug]/page": "/episodes/[slug]",
+  "/episodes/page": "/episodes",
   "/icon.png/route": "/icon.png",
   "/page": "/",
   "/robots.txt/route": "/robots.txt",
