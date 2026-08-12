@@ -18,8 +18,17 @@ export default function ListenNowModal() {
 
     useEffect(() => {
         const handleOpen = () => setIsOpen(true);
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') setIsOpen(false);
+        };
+
         window.addEventListener('open-listen-modal', handleOpen);
-        return () => window.removeEventListener('open-listen-modal', handleOpen);
+        window.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            window.removeEventListener('open-listen-modal', handleOpen);
+            window.removeEventListener('keydown', handleKeyDown);
+        };
     }, []);
 
     return (

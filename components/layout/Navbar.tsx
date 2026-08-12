@@ -21,29 +21,38 @@ export default function Navbar() {
     const [activeSection, setActiveSection] = useState('');
 
     useEffect(() => {
-        const handleScroll = () => {
-            const sections = navItems.map(item => item.path.replace('/', ''));
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setActiveSection(`#${entry.target.id}`);
+                }
+            });
+        }, {
+            root: null,
+            rootMargin: '-50% 0px -50% 0px', // Trigger when section is in the middle of the viewport
+        });
 
+        navItems.forEach(item => {
+            if (item.path !== '/') {
+                const el = document.querySelector(item.path);
+                if (el) observer.observe(el);
+            }
+        });
+
+        const handleScroll = () => {
             if (window.scrollY < 100) {
                 setActiveSection('/');
-                return;
-            }
-
-            for (const section of sections) {
-                if (section === '') continue; 
-                const element = document.querySelector(section); 
-                if (element) {
-                    const rect = element.getBoundingClientRect();
-                    if (rect.top >= 0 && rect.top <= 300) {
-                        setActiveSection(section);
-                        break;
-                    }
-                }
             }
         };
 
         window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        // Initial check for page load
+        handleScroll();
+
+        return () => {
+            observer.disconnect();
+            window.removeEventListener('scroll', handleScroll);
+        };
     }, []);
 
     return (
@@ -65,6 +74,7 @@ export default function Navbar() {
                             <Link
                                 href={item.path}
                                 onClick={() => setActiveSection(item.path)}
+                                aria-label={item.name}
                                 className={clsx(
                                     "relative flex items-center gap-1.5 px-3 py-1.5 text-xs md:text-sm font-medium transition-colors hover:text-neon-primary rounded-full hover:bg-white/5",
                                     isActive ? "text-white" : "text-zinc-400"

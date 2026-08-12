@@ -5,7 +5,6 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { clsx } from "clsx";
 import Navbar from "@/components/layout/Navbar";
-import LockScreen from "@/components/ui/LockScreen";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-geist-sans" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
@@ -131,7 +130,6 @@ export default function RootLayout({
                     "antialiased bg-background text-foreground bg-grid min-h-screen selection:bg-neon-primary selection:text-black"
                 )}
             >
-                <LockScreen />
                 <Navbar />
                 {children}
                 <Analytics />

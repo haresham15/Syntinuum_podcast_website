@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/episodes/s3-e2":{},"/episodes/s3-e1":{},"/episodes/s2-e8":{},"/episodes/s2-e7":{},"/episodes/s2-e6":{},"/episodes/s2-e5":{},"/episodes/s2-e4":{},"/episodes/s2-e3":{},"/episodes/s2-e2":{},"/episodes/s2-e1":{},"/episodes/s1-e8":{},"/episodes/s1-e7":{},"/episodes/s1-e6":{},"/episodes/s1-e5":{},"/episodes/s1-e4":{},"/episodes/s1-e3":{},"/episodes/s1-e2":{},"/episodes/s1-e1":{}},"dynamicRoutes":{"/episodes/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/episodes/[slug]","routeRegex":"^\\/episodes\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"6f8ee2a253b0418be5eb98b6fdc31906","previewModeSigningKey":"730743591e31a0693ec3ac3acb047b71f99771b19eb1d98829e5425ee4bfa1d0","previewModeEncryptionKey":"2c2be1fd3bea4051dc9024c1ce705340d7ffdbb93e73cefb6cf4f28c25095dc0"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "7460708c93cf7f519aad6ece2a6af959",
+    "previewModeSigningKey": "33986c7842c573227733e90cba07074e7c672efb9702d004ca92c627727bb97b",
+    "previewModeEncryptionKey": "07b0fa7cc2253253044710ab59c85f542fe90454a24220ad2c7697465ab261fa"
+  }
+}

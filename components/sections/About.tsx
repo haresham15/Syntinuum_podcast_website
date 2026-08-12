@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { User, Terminal, Cpu } from 'lucide-react';
 
 import Image from 'next/image';
-import MeImg from '../media/me.jpg';
+import MeImg from '../media/me-copy.jpeg';
 
 export default function About() {
     return (

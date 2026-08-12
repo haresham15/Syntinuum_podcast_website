@@ -9,9 +9,8 @@ import HistorySwitch from '@/components/sections/HistorySwitch';
 import Episodes from '@/components/sections/Episodes';
 import Achievements from '@/components/sections/Achievements';
 import Subscribe from '@/components/sections/Subscribe';
-import Season1Carousel from '@/components/sections/Season1Carousel';
-import Season2Carousel from '@/components/sections/Season2Carousel';
-import Season3Carousel from '@/components/sections/Season3Carousel';
+import SeasonCarousel from '@/components/sections/SeasonCarousel';
+import { season1Episodes, season2Episodes, season3Episodes } from '@/lib/episodes';
 import ListenNowModal from '@/components/ui/ListenNowModal';
 import JsonLd from '@/components/seo/JsonLd';
 
@@ -38,9 +37,9 @@ export default function Home() {
                 <HistorySwitch />
                 <Achievements />
                 <Episodes />
-                <Season3Carousel />
-                <Season2Carousel />
-                <Season1Carousel />
+                <SeasonCarousel id="season3" seasonTitle="SEASON 03: Growing and Learning" badgeText="NEW_TRANSMISSIONS" episodes={season3Episodes} colorTheme="purple" />
+                <SeasonCarousel id="season2" seasonTitle="SEASON 02: The Next Iteration" badgeText="CURRENT_SESSIONS" episodes={season2Episodes} colorTheme="purple" />
+                <SeasonCarousel id="season1" seasonTitle="SEASON 01: Retrospective Base Ground" badgeText="ARCHIVE_DETECTED" episodes={season1Episodes} colorTheme="primary" />
                 <Subscribe />
             </motion.div>
             <ListenNowModal />

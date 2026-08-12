@@ -1,126 +1,189 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-
-const contentDirectory = path.join(process.cwd(), 'content', 'episodes');
-
-export interface EpisodeData {
+export interface Episode {
     id: string;
     title: string;
     guest: string;
-    product?: string;
-    date: string;
-    image?: string;
-    youtubeLink?: string;
-    spotifyLink?: string;
-    appleLink?: string;
-    amazonLink?: string;
-    castboxLink?: string;
-    content: string; // The markdown body
+    product: string;
+    desc: string;
+    image: string;
+    link: string;
 }
 
-/**
- * Ensures the content directory exists.
- */
-function ensureDirectory() {
-    if (!fs.existsSync(contentDirectory)) {
-        fs.mkdirSync(contentDirectory, { recursive: true });
+export const season1Episodes: Episode[] = [
+    {
+        id: 's1-e1',
+        title: 'AI Assisted Architecture',
+        guest: 'Architecture Team',
+        product: 'AI Design',
+        desc: 'How AI is shaping the skyline. The role of generative design in modern construction and urban planning.',
+        image: '/media/s1/9.png',
+        link: 'https://youtu.be/YKkqn0x3mEQ'
+    },
+    {
+        id: 's1-e2',
+        title: 'XVision Headset',
+        guest: 'Augmedics Team',
+        product: 'XVision',
+        desc: 'Augmented reality for surgeons. Giving doctors x-ray vision to see through anatomy during complex procedures.',
+        image: '/media/s1/10.png',
+        link: 'https://youtu.be/z6naGP1PY74'
+    },
+    {
+        id: 's1-e3',
+        title: 'NAQi Neural Earbuds',
+        guest: 'Dave Segal',
+        product: 'NAQI Earbuds',
+        desc: 'Control digital devices with your mind? Neural earbuds and the future of human-computer interfaces.',
+        image: '/media/s1/11.png',
+        link: 'https://youtu.be/-fH-FkjSY-s'
+    },
+    {
+        id: 's1-e4',
+        title: 'Rainstick Shower',
+        guest: 'Alisha McFetridge',
+        product: 'Rainstick',
+        desc: 'The sustainable shower of the future. Saving water and energy without compromising the shower experience.',
+        image: '/media/s1/12.png',
+        link: 'https://youtu.be/Q4RHkE_ojBE'
+    },
+    {
+        id: 's1-e5',
+        title: 'AI Art Theft Prevention',
+        guest: 'Dr. Shawn Shan',
+        product: 'Glaze AI Prevention',
+        desc: 'Protecting art from theft. How AI is revolutionizing the art world and keeping priceless works safe.',
+        image: '/media/s1/13.png',
+        link: 'https://youtu.be/FaUqpbqMcps'
+    },
+    {
+        id: 's1-e6',
+        title: 'GACW',
+        guest: 'Dr. Zoltan Kemeney',
+        product: 'Air Sus. Wheels',
+        desc: 'Reinventing the wheel. Air suspension technology for heavy machinery that improves efficiency and durability.',
+        image: '/media/s1/14.png',
+        link: 'https://youtu.be/oljsu5EuXZw'
+    },
+    {
+        id: 's1-e7',
+        title: 'FeaturePrint',
+        guest: 'Mr.Roei Ganzarski',
+        product: 'FeaturePrint',
+        desc: 'Authenticating products with a single photo. The physics of uniqueness and the end of counterfeiting.',
+        image: '/media/s1/15.png',
+        link: 'https://youtu.be/ZFkU_g8cGI0'
+    },
+    {
+        id: 's1-e8',
+        title: 'Ehrman Crest School',
+        guest: 'Timothy J. Eiler',
+        product: 'Ehrman Crest',
+        desc: 'Exploring the layout of the future. How Ehrman Crest is redefining education through architecture and design.',
+        image: '/media/s1/16.png',
+        link: 'https://youtu.be/CRt8Whi_K4c'
     }
-}
+];
 
-/**
- * Retrieves a single episode by its ID (slug).
- */
-export async function getEpisodeById(id: string): Promise<EpisodeData | null> {
-    ensureDirectory();
-    try {
-        const fullPath = path.join(contentDirectory, `${id}.md`);
-        const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-        // Use gray-matter to parse the episode metadata section
-        const matterResult = matter(fileContents);
-
-        return {
-            id,
-            title: matterResult.data.title || '',
-            guest: matterResult.data.guest || '',
-            product: matterResult.data.product || '',
-            date: matterResult.data.date || '',
-            image: matterResult.data.image || '',
-            youtubeLink: matterResult.data.youtubeLink || '',
-            spotifyLink: matterResult.data.spotifyLink || '',
-            appleLink: matterResult.data.appleLink || '',
-            amazonLink: matterResult.data.amazonLink || '',
-            castboxLink: matterResult.data.castboxLink || '',
-            content: matterResult.content,
-        };
-    } catch (e) {
-        return null; // Return null if file not found
+export const season2Episodes: Episode[] = [
+    {
+        id: 's2-e1',
+        title: 'Nuwa Smart Pen',
+        guest: 'Marc Tuinier',
+        product: 'Nuwa Pen',
+        desc: 'Reinventing the pen for the digital age. This AI-powered ballpoint pen digitizes your handwriting on any paper.',
+        image: '/media/s2/1.png',
+        link: 'https://youtube.com/watch?v=TRuFpK_j-YE'
+    },
+    {
+        id: 's2-e2',
+        title: 'Neuro-Law Special',
+        guest: 'Joseph Wszalek',
+        product: 'Neuro-Law',
+        desc: 'A deep dive into the intersection of neuroscience and law. How brain science is changing the way we understand justice and responsibility.',
+        image: '/media/s2/2.png',
+        link: 'https://youtube.com/watch?v=Tt4CBcyt-2c'
+    },
+    {
+        id: 's2-e3',
+        title: 'Honda Hydrogen',
+        guest: 'Honda R&D',
+        product: 'CR-V e:FCEV',
+        desc: 'Implementing innovations in hydrogen fuel cell technology. Exploring the future of sustainable mobility with Honda\'s latest advancements.',
+        image: '/media/s2/3.png',
+        link: 'https://www.youtube.com/@Adapt-ImplementingInnovations'
+    },
+    {
+        id: 's2-e4',
+        title: 'Notpla',
+        guest: 'Callum Rhodes',
+        product: 'Notpla Packaging',
+        desc: 'Revolutionary packaging that disappears. Made from seaweed and plants, Notpla offers a sustainable alternative to single-use plastics.',
+        image: '/media/s2/4.png',
+        link: 'https://www.youtube.com/@Adapt-ImplementingInnovations'
+    },
+    {
+        id: 's2-e5',
+        title: 'Baracoda',
+        guest: 'Thomas Serval',
+        product: 'BMind Mirror',
+        desc: 'Pioneering the daily healthtech revolution with the world\'s first AI-powered smart mirror for mental wellness and stress management.',
+        image: '/media/s2/5.png',
+        link: 'https://www.youtube.com/@Adapt-ImplementingInnovations'
+    },
+    {
+        id: 's2-e6',
+        title: 'Whispp',
+        guest: 'Joris Castermans',
+        product: 'Whispp App',
+        desc: 'AI-powered speech technology that converts whispered speech into a clear and natural voice for people with voice disabilities.',
+        image: '/media/s2/6.png',
+        link: 'https://www.youtube.com/@Adapt-ImplementingInnovations'
+    },
+    {
+        id: 's2-e7',
+        title: 'BackAware Workout Belt',
+        guest: 'Dr. Peter O\'Sullivan',
+        product: 'BackAware',
+        desc: 'A smart belt utilizing AI to provide real-time feedback on back posture during workouts, preventing injury and maximizing efficiency.',
+        image: '/media/s2/7.png',
+        link: 'https://youtube.com/watch?v=Dx08Oxq65eg'
+    },
+    {
+        id: 's2-e8',
+        title: 'Colorpik AI Smart Pen',
+        guest: 'Steve Wang',
+        product: 'Colorpik',
+        desc: 'The world\'s first pen that can scan and reproduce any color in the universe. A revolutionary tool for artists and designers.',
+        image: '/media/s2/8.png',
+        link: 'https://youtube.com/watch?v=V-xad4CYvis'
     }
-}
+];
 
-/**
- * Retrieves all episodes sorted by date.
- */
-export async function getAllEpisodes(): Promise<EpisodeData[]> {
-    ensureDirectory();
-    const fileNames = fs.readdirSync(contentDirectory);
-    
-    // Filter only .md files
-    const mdFiles = fileNames.filter(fileName => fileName.endsWith('.md'));
-
-    const allEpisodesList = await Promise.all(
-        mdFiles.map(async (fileName) => {
-            const id = fileName.replace(/\.md$/, '');
-            const episode = await getEpisodeById(id);
-            return episode!;
-        })
-    );
-
-    // Sort episodes by date
-    return allEpisodesList.sort((a, b) => {
-        if (a.date < b.date) {
-            return 1;
-        } else {
-            return -1;
-        }
-    });
-}
-
-/**
- * Retrieves related episodes based on keyword matching in title, guest, or product.
- */
-export async function getRelatedEpisodes(currentId: string, limit: number = 3): Promise<EpisodeData[]> {
-    const allEpisodes = await getAllEpisodes();
-    const currentEpisode = allEpisodes.find(ep => ep.id === currentId);
-    
-    if (!currentEpisode) return [];
-
-    const otherEpisodes = allEpisodes.filter(ep => ep.id !== currentId);
-    
-    // Extract keywords from the current episode to compare
-    const getKeywords = (ep: EpisodeData) => {
-        const text = `${ep.title} ${ep.guest} ${ep.product || ''}`.toLowerCase();
-        return new Set(text.split(/\W+/).filter(word => word.length > 4));
-    };
-
-    const currentKeywords = getKeywords(currentEpisode);
-
-    // Score each episode based on keyword intersection
-    const scoredEpisodes = otherEpisodes.map(ep => {
-        const keywords = getKeywords(ep);
-        let score = 0;
-        for (const word of currentKeywords) {
-            if (keywords.has(word)) score += 1;
-        }
-        return { episode: ep, score };
-    });
-
-    // Sort by score (descending), then by date (newest first)
-    scoredEpisodes.sort((a, b) => {
-        if (a.score !== b.score) return b.score - a.score;
-        return a.episode.date < b.episode.date ? 1 : -1;
-    });
-
-    return scoredEpisodes.slice(0, limit).map(item => item.episode);
-}
+export const season3Episodes: Episode[] = [
+    {
+        id: 's3-e1',
+        title: 'Lotus Smart Rings',
+        guest: 'Mr. Dhaval Patel',
+        product: 'Lotus Smart Rings',
+        desc: 'The episode delves into the intricacies of designing and manufacturing smart rings, exploring the challenges of miniaturization, power management, and user experience. Mr. Patel shares his insights on the future of wearable technology and the potential of smart rings to revolutionize the way we interact with our digital world.',
+        image: '/media/s3/1.png',
+        link: 'https://youtu.be/lZH9AY-B07M'
+    },
+    {
+        id: 's3-e2',
+        title: 'Sustainable Food Tech & Mycoprotein Synthesis',
+        guest: 'Paul Shapiro',
+        product: 'The Better Meat Company',
+        desc: 'In this episode, we dive into sustainable food tech and mycoprotein synthesis with Paul Shapiro from The Better Meat Company. We explore how growing meat without animals could revolutionize dinner and the world.',
+        image: '/media/s3/2.png',
+        link: 'https://youtu.be/oaZFKyy7Kc4'
+    },
+    ...Array.from({ length: 7 }).map((_, i) => ({
+        id: `s3-e${i + 3}`,
+        title: 'Coming Soon',
+        guest: 'TBA',
+        product: '',
+        desc: 'Stay tuned for more exciting episodes in Season 3!',
+        image: '',
+        link: '#'
+    }))
+];
