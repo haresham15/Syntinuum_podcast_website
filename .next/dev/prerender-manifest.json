@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "7460708c93cf7f519aad6ece2a6af959",
-    "previewModeSigningKey": "33986c7842c573227733e90cba07074e7c672efb9702d004ca92c627727bb97b",
-    "previewModeEncryptionKey": "07b0fa7cc2253253044710ab59c85f542fe90454a24220ad2c7697465ab261fa"
-  }
-}
+{"version":4,"routes":{"/episodes/s1-e1":{},"/episodes/s1-e2":{},"/episodes/s1-e3":{},"/episodes/s1-e4":{},"/episodes/s1-e5":{},"/episodes/s1-e6":{},"/episodes/s1-e7":{},"/episodes/s1-e8":{},"/episodes/s2-e1":{},"/episodes/s2-e2":{},"/episodes/s2-e3":{},"/episodes/s2-e4":{},"/episodes/s2-e5":{},"/episodes/s2-e6":{},"/episodes/s2-e7":{},"/episodes/s2-e8":{},"/episodes/s3-e1":{},"/episodes/s3-e2":{},"/episodes/s3-e3":{},"/episodes/s3-e4":{},"/episodes/s3-e5":{},"/episodes/s3-e6":{},"/episodes/s3-e7":{},"/episodes/s3-e8":{},"/episodes/s3-e9":{}},"dynamicRoutes":{"/episodes/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/episodes/[slug]","routeRegex":"^\\/episodes\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"ea7f9841d1595cdb7f53c6b674c68f00","previewModeSigningKey":"ede61a3d992ef8f2058ff6e9604df7ef04fbbae2971f48cdd8f518cacbef4708","previewModeEncryptionKey":"8aa35f0ed25d5b2fd4c3aa5bbf6c686ed9967e64b2b2f44021b911755080c9d1"}}

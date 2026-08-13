@@ -2089,6 +2089,12 @@ function SeasonCarousel({ id, seasonTitle, badgeText, episodes, colorTheme }) {
 "use strict";
 
 __turbopack_context__.s([
+    "getAllEpisodes",
+    ()=>getAllEpisodes,
+    "getEpisodeById",
+    ()=>getEpisodeById,
+    "getRelatedEpisodes",
+    ()=>getRelatedEpisodes,
     "season1Episodes",
     ()=>season1Episodes,
     "season2Episodes",
@@ -2263,10 +2269,19 @@ const season3Episodes = [
         image: '/media/s3/2.png',
         link: 'https://youtu.be/oaZFKyy7Kc4'
     },
+    {
+        id: 's3-e3',
+        title: 'CAS Newton',
+        guest: 'Andrea Jacobs',
+        product: 'CAS Newton',
+        desc: 'In this special in-person episode, we explore the intersection of artificial intelligence, data science, and the future of scientific discovery with Andrea Jacobs, the Director of Artificial Intelligence at Chemical Abstracts Service (CAS).\n\nWe dive deep into how CAS Newton is leveraging advanced AI models to accelerate chemical research, manage massive datasets, and uncover new scientific breakthroughs. Discover the behind-the-scenes challenges of building AI tools for scientists and what the future holds for data-driven discovery.',
+        image: '/media/s3/3.png',
+        link: 'https://youtu.be/6Pk0pJTrRrs'
+    },
     ...Array.from({
-        length: 7
+        length: 6
     }).map((_, i)=>({
-            id: `s3-e${i + 3}`,
+            id: `s3-e${i + 4}`,
             title: 'Coming Soon',
             guest: 'TBA',
             product: '',
@@ -2275,6 +2290,27 @@ const season3Episodes = [
             link: '#'
         }))
 ];
+async function getAllEpisodes() {
+    return [
+        ...season1Episodes,
+        ...season2Episodes,
+        ...season3Episodes
+    ];
+}
+async function getEpisodeById(id) {
+    const episodes = await getAllEpisodes();
+    const ep = episodes.find((e)=>e.id === id);
+    if (!ep) return undefined;
+    return {
+        ...ep,
+        content: ep.desc,
+        date: new Date().toISOString()
+    };
+}
+async function getRelatedEpisodes(id, count) {
+    const episodes = await getAllEpisodes();
+    return episodes.filter((e)=>e.id !== id).slice(0, count);
+}
 }),
 "[project]/components/ui/ListenNowModal.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";

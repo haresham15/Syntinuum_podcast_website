@@ -1,16 +1,63 @@
-[00:00:19.768] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:23.360] Server  LOG      ✓ Ready in 15s
-[00:01:42.542] Server  LOG      ○ Compiling / ...
-[00:02:09.517] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:10.176] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:10.176] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:10.419] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:10.419] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:10.419] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786561276505} /_vercel/insights/view
-[00:03:22.968] Server  LOG      ✓ Compiled in 996ms
-[00:03:37.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:38.078] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:38.079] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:38.080] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:03:38.080] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786561364163} /_vercel/insights/view
-[00:03:38.204] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:37.320] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:44.870] Server  LOG      ✓ Ready in 32.3s
+[00:00:48.069] Server  LOG      ○ Compiling / ...
+[00:01:18.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:18.877] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:18.877] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:18.877] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:18.877] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786660740441} /_vercel/insights/view
+[00:01:18.877] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:31.472] Server  LOG      ○ Compiling /_not-found/page ...
+[00:01:34.081] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:34.277] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:34.277] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/episodes/s3-e3","route":"/episodes/s3-e3"}
+[00:01:34.277] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/s3-e3","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786660755875} /_vercel/insights/view
+[00:08:47.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:47.624] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:47.624] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/episodes/s3-e3","route":"/episodes/s3-e3"}
+[00:08:47.624] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/s3-e3","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661189222} /_vercel/insights/view
+[00:08:48.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:49.162] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:49.162] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/episodes/s3-e3","route":"/episodes/s3-e3"}
+[00:08:49.162] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/s3-e3","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661190759} /_vercel/insights/view
+[00:08:50.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:51.036] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:51.248] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:51.249] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:51.249] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/#season3 color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#season3","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661192833} /_vercel/insights/view
+[00:08:54.611] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:54.955] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:54.955] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:54.955] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:54.955] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/#season3 color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#season3","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661196540} /_vercel/insights/view
+[00:09:00.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:00.416] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:00.416] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/episodes/s3-e3","route":"/episodes/s3-e3"}
+[00:09:00.416] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/s3-e3","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661202016} /_vercel/insights/view
+[00:09:05.861] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:06.250] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:06.250] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:06.250] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:06.250] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:09:06.250] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661207846} /_vercel/insights/view
+[00:09:25.548] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:25.784] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:25.784] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/episodes/s3-e3","route":"/episodes/s3-e3"}
+[00:09:25.784] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/s3-e3","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661227382} /_vercel/insights/view
+[00:11:24.402] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/[slug]","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661344894} /_vercel/insights/view
+[00:11:24.655] Browser WARN    Image with src "/media/s1/11.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:24.655] Browser WARN    Image with src "/media/s1/10.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:24.655] Browser WARN    Image with src "/media/s1/9.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:00.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:02.049] Browser WARN    Image with src "/media/s1/9.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:02.050] Browser WARN    Image with src "/media/s1/10.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:02.050] Browser WARN    Image with src "/media/s1/11.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:02.050] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:02.050] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/episodes/s3-e3","route":"/episodes/[slug]"}
+[00:18:02.050] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/[slug]","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661743383} /_vercel/insights/view
+[00:20:02.435] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:20:02.435] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786661864000} /_vercel/insights/view
+[00:20:02.435] Browser WARN    Image with src "/_next/static/media/mainlogo.1302d5cf.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:02.731] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:24.813] Server  LOG      ✓ Compiled in 437ms
+[00:23:31.844] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/[slug]","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786662073436} /_vercel/insights/view
