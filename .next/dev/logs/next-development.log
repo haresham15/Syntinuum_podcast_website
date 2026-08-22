@@ -61,3 +61,4 @@
 [00:20:02.731] Browser WARN    Image with src "/_next/static/media/historyicon.ebd57b3f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:20:24.813] Server  LOG      ✓ Compiled in 437ms
 [00:23:31.844] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/episodes/s3-e3 color: rgb(120, 120, 120) color: inherit {"dp":"/episodes/[slug]","o":"http://localhost:3001/episodes/s3-e3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786662073436} /_vercel/insights/view
+[00:37:06.546] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1786662888139} /_vercel/insights/view
